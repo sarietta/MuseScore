@@ -18,6 +18,8 @@ I did some changes to the files to better fit for MuseScore:
 -------------------------------------------------
 accidentals3.mscz
       accidentals positioning in chords     
+aeolus.mscx
+      test aeolus synthesizer
 arpeggio.mscz
       arpeggio up down
 beam1.mscz
@@ -79,7 +81,7 @@ test1.msc
       single staff, single voice, c-scale
 
 test3.msc
-      displaced noteheads
+      displaced note heads
 
 test7.msc
       - piano and trumpet staff
@@ -153,7 +155,7 @@ testVoicePiano1.xml      score with both a voice and a piano part
 testVolta1.xml           simple (one-measure) volta's
 testWedge1.xml           crescendo and diminuendo wedges
 testWords1.xml           the "words" direction
-test98.xml               9/8 time signature with dotted rests
+test98.xml               9/8 time signature with dottet rests
 
 -------------------------------------------------
       MuseData

@@ -15,19 +15,6 @@
       <natural></natural>
       <sharp></sharp>
       <doublesharp></doublesharp>
-      <cross>+</cross>
-      <backslash>\</backslash>
-      <slash>/</slash>
-      <digit value="0">
-         <simple>0</simple>
-         <crossed></crossed>
-         <backslashed></backslashed>
-         <slashed>?</slashed>
-         <simpleHistoric>0</simpleHistoric>
-         <crossedHistoric></crossedHistoric>
-         <backslashedHistoric></backslashedHistoric>
-         <slashedHistoric>?</slashedHistoric>
-      </digit>
       <digit value="1">
          <simple>1</simple>
          <crossed></crossed>

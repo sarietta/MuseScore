@@ -1,7 +1,5 @@
 #include "fmt_opts.h"
 
-strmap formatting_options::styles;
-
 std::string formatting_options::get_par_str() const
 {
    std::string style;
@@ -15,10 +13,6 @@ std::string formatting_options::get_par_str() const
       break;
    case formatting_options::align_justify:
       style+="text-align:justify;";
-      break;
-   case formatting_options::align_left:
-   case formatting_options::align_error:
-      break;
    }
    if (papFirst!=0)
    {
@@ -54,28 +48,9 @@ std::string formatting_options::get_par_str() const
       return std::string("<p>");
    else
    {
-      return std::string("<p class=\"") + formatting_options::get_style_id(style) + "\">";
+      style.insert(0, "<p style=\"");
+      return style+"\">";
    }
-}
-
-std::string formatting_options::get_style_id(const std::string &style)
-{
-   strmap::iterator i_style = styles.find(style);
-   if (i_style == styles.end())
-   {
-      i_style = styles.insert(strmap::value_type(style, std::string("cls") + from_int(styles.size()))).first;
-   }
-   return i_style->second;
-}
-
-std::string formatting_options::get_styles()
-{
-   std::string result;
-   for (strmap::const_iterator i = styles.begin(); i != styles.end(); ++i)
-   {
-      result += std::string(".") + i->second + " {" + i->first + "}\n";
-   }
-   return result;
 }
 
 std::string formatter::format(const formatting_options &_opt)
@@ -128,12 +103,6 @@ std::string formatter::format(const formatting_options &_opt)
    {
       style+="font-weight:";
       style+=opt.chpBold?"bold":"normal";
-      style+=";";
-   }
-   if (opt.chpAllCaps!=last_opt.chpAllCaps)
-   {
-      style+="text-transform:";
-      style+=opt.chpAllCaps?"uppercase":"none";
       style+=";";
    }
    if (opt.chpItalic!=last_opt.chpItalic)
@@ -204,10 +173,6 @@ std::string formatter::format(const formatting_options &_opt)
       }
       style+=";";
    }
-   if (opt.chpVShift!=last_opt.chpVShift)
-   {
-      style += "position:relative;top:" + from_int(opt.chpVShift / 2) + "pt;";
-   }
    if (opt.chpFont!=last_opt.chpFont)
    {
       style+="font-family:'";
@@ -220,12 +185,11 @@ std::string formatter::format(const formatting_options &_opt)
       case font::ff_cursive: style+=", cursive"; break;
       case font::ff_fantasy: style+=", fantasy"; break;
       case font::ff_monospace: style+=", monospace"; break;
-      case font::ff_none: break;
       }
       style+=";";
    }
    opt_stack.push_back(opt);
-   return result + "<span class=\"" + formatting_options::get_style_id(style) + "\">";
+   return result+"<span style=\""+style+"\">";
 }
 
 std::string formatter::close()

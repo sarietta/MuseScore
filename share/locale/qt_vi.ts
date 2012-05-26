@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="vi">
+<TS version="2.0" language="en_US">
 <context>
     <name>AudioOutput</name>
     <message>
         <source>&lt;html&gt;The audio playback device &lt;b&gt;%1&lt;/b&gt; does not work.&lt;br/&gt;Falling back to &lt;b&gt;%2&lt;/b&gt;.&lt;/html&gt;</source>
-        <translation>&lt;html&gt;Thiết bị âm thanh &lt;b&gt;%1&lt;/b&gt; không làm việc.&lt;br/&gt;Trả về &lt;b&gt;%2&lt;/b&gt;.&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;html&gt;Switching to the audio playback device &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;which just became available and has higher preference.&lt;/html&gt;</source>
-        <translation>&lt;html&gt;Chuyển qua thiết bị phát âm thanh &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;,thiết bị đã có hiệu lực và có sự ưu tiên cao hơn.&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Revert back to device &apos;%1&apos;</source>
-        <translation>Quay trở về thiết bị &apos;%1&apos;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Phonon::</name>
     <message>
         <source>Notifications</source>
-        <translation>Các thông báo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Music</source>
@@ -48,14 +48,12 @@
     <message>
         <source>Warning: You do not seem to have the package gstreamer0.10-plugins-good installed.
           Some video features have been disabled.</source>
-        <translation>Chú ý: Bạn hình như chưa được cài đặt gói gstreamer0.10-plugins-good.
-          Một vài chức năng vi-deo đã được vô hiệu hóa.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Warning: You do not seem to have the base GStreamer plugins installed.
           All audio and video support has been disabled</source>
-        <translation>Chú ý: Bạn hình như chưa được cài đặt các phụ trợ GStreamer cơ bản.
-          Tất cả hỗ trợ về âm thanh và vi-deo đã được vô hiệu hóa</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -65,325 +63,319 @@
 
 Check your Gstreamer installation and make sure you 
 have libgstreamer-plugins-base installed.</source>
-        <translation>Không thể bắt đầu phát âm thanh.
-
-Kiểm tra sự cài đặt Gstreamer của bạn và chắc rằng 
-gói libgstreamer-plugins-base đã được cài đặt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <source>A required codec is missing. You need to install the following codec(s) to play this content: %0</source>
-        <translation>
-            <numerusform>Một bộ giải mã (codec) bị thiếu. Bạn cần cài đặt (một/nhiều) bộ giải mã (codec) dưới đây để phát nội dung này: %0</numerusform>
-            <numerusform>Một bộ giải mã (codecs) bị thiếu. Bạn cần cài đặt (một/nhiều) bộ giải mã (codecs) dưới đây để phát nội dung này: %0</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <source>Could not open media source.</source>
-        <translation>Không thể mở nguồn thông tin này.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid source type.</source>
-        <translation>Loại này không có hiệu lực.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not locate media source.</source>
-        <translation>Không thể xác định nguồn thông tin này.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not open audio device. The device is already in use.</source>
-        <translation>Không mở thiết bị âm thanh này được. Nó đã được sử dụng.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not decode media source.</source>
-        <translation>Không thể giải mã nguồn thông tin này.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Phonon::VolumeSlider</name>
     <message>
         <source>Volume: %1%</source>
-        <translation>Âm lượng: %1%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Use this slider to adjust the volume. The leftmost position is 0%, the rightmost is %1%</source>
-        <translation>Dùng thanh trượt này để chỉnh âm lượng. Vị trí trái nhất là 0%, phải nhất là %1%</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3Accel</name>
     <message>
         <source>%1, %2 not defined</source>
-        <translation>%1, %2 không xác định</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ambiguous %1 not handled</source>
-        <translation>%1 mơ hồ không được kiểm soát</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3DataTable</name>
     <message>
         <source>True</source>
-        <translation>True</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>False</source>
-        <translation>False</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Chèn thêm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Update</source>
-        <translation>Cập nhật</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Xóa</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3FileDialog</name>
     <message>
         <source>Copy or Move a File</source>
-        <translation>Sao chép hoặc Dời một Tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Read: %1</source>
-        <translation>Đọc: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Write: %1</source>
-        <translation>Ghi: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All Files (*)</source>
-        <translation>Mọi tập tin (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Kích cỡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Kiểu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Ngày giờ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Attributes</source>
-        <translation>Thuộc tính</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>Đồ&amp;ng ý</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Look &amp;in:</source>
-        <translation>&amp;Xem qua:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>&amp;Tên tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File &amp;type:</source>
-        <translation>&amp;Kiểu tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Quay lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>One directory up</source>
-        <translation>Lên thư mục cha</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>Tạo thư mục mới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Xem dạng danh sách</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>Xem dạng chi tiết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Preview File Info</source>
-        <translation>Xem trước th/tin tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Preview File Contents</source>
-        <translation>Xem trước nội dung tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Read-write</source>
-        <translation>Đọc-ghi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Read-only</source>
-        <translation>Chỉ-đọc</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Write-only</source>
-        <translation>Chỉ-ghi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Inaccessible</source>
-        <translation>Không thể truy xuất</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Symlink to File</source>
-        <translation>Symlink tới Tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Symlink to Directory</source>
-        <translation>Symlink tới Thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Symlink to Special</source>
-        <translation>Symlink đặc biệt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Dir</source>
-        <translation>Thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Special</source>
-        <translation>Đặc biệt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>Lưu với tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Lưu trữ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>Đổi tê&amp;n</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Xóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>R&amp;eload</source>
-        <translation>&amp;Nạp lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sort by &amp;Name</source>
-        <translation>Sắp theo &amp;Tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sort by &amp;Size</source>
-        <translation>Sắp theo &amp;Cỡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sort by &amp;Date</source>
-        <translation>Sắp theo &amp;Ngày giờ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Unsorted</source>
-        <translation>&amp;Không sắp xếp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sort</source>
-        <translation>Sắp xếp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>Hiện tập tin ẩ&amp;n</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>the file</source>
-        <translation>tập tin này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>the directory</source>
-        <translation>thư mục này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>the symlink</source>
-        <translation>symlink này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete %1</source>
-        <translation>Xóa %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;qt&gt;Are you sure you wish to delete %1 &quot;%2&quot;?&lt;/qt&gt;</source>
-        <translation>&lt;qt&gt;Bạn chắc bạn muốn xóa %1 &quot;%2&quot;?&lt;/qt&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;Có</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;Không</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New Folder 1</source>
-        <translation>Thư mục mới 1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Thư mục mới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New Folder %1</source>
-        <translation>Thư mục mới %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>Tìm Thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Các thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>Thư mục:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1
 File not found.
 Check path and filename.</source>
-        <translation>%1
-Tập tin không tìm thấy.
-Kiểm tra lại đường dẫn và tên tập tin.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -391,42 +383,34 @@ Kiểm tra lại đường dẫn và tên tập tin.</translation>
     <message>
         <source>Could not read directory
 %1</source>
-        <translation>Không đọc được thư mục
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not create directory
 %1</source>
-        <translation>Không tạo được thư mục
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not remove file or directory
 %1</source>
-        <translation>Không xóa bỏ được tập tin hoặc thư mục
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not rename
 %1
 to
 %2</source>
-        <translation>Không thể đổi tên
-%1
-thành
-%2 được</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not open
 %1</source>
-        <translation>Không thể mở
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not write
 %1</source>
-        <translation>Không thể ghi
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -437,75 +421,75 @@ thành
     </message>
     <message>
         <source>Customize...</source>
-        <translation>Tùy chỉnh…</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3NetworkProtocol</name>
     <message>
         <source>Operation stopped by the user</source>
-        <translation>Thao tác đã ngừng bởi người dùng</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3ProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3TabDialog</name>
     <message>
         <source>OK</source>
-        <translation>Đồng ý</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Áp dụng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Trợ giúp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Defaults</source>
-        <translation>Mặc định</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3TextEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Hoàn tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Làm lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Cắt ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Sao chép</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Dán vào</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Xóa sạch</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Chọn tất cả</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -516,259 +500,259 @@ thành
     </message>
     <message>
         <source>Restore up</source>
-        <translation>Bung lên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Thật nhỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore down</source>
-        <translation>Cho nhỏ lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Thật lớn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Contains commands to manipulate the window</source>
-        <translation>Chứa các lệnh để thao tác trên cửa sổ này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Puts a minimized back to normal</source>
-        <translation>Đưa trạng thái thật nhỏ trở lại bình thường</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Moves the window out of the way</source>
-        <translation>Dịch cửa sổ này ra ngoài</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Puts a maximized window back to normal</source>
-        <translation>Đưa trạng thái thật lớn về bình thường</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Makes the window full screen</source>
-        <translation>Cho cửa sổ này phủ toàn màn hình</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Closes the window</source>
-        <translation>Đóng cửa sổ này lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Displays the name of the window and contains controls to manipulate it</source>
-        <translation>Hiện tên cửa sổ và các điều khiển để thao tác trên nó</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3ToolBar</name>
     <message>
         <source>More...</source>
-        <translation>Thêm nữa…</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3UrlOperator</name>
     <message>
         <source>The protocol `%1&apos; is not supported</source>
-        <translation>Giao thức `%1&apos; này không được hỗ trợ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The protocol `%1&apos; does not support listing directories</source>
-        <translation>Giao thức `%1&apos; này không hỗ trợ liệt kê các thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The protocol `%1&apos; does not support creating new directories</source>
-        <translation>Giao thức `%1&apos; này không hỗ trợ tạo các thư mục mới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The protocol `%1&apos; does not support removing files or directories</source>
-        <translation>Giao thức `%1&apos; này không hỗ trợ xóa bỏ các tập tin và thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The protocol `%1&apos; does not support renaming files or directories</source>
-        <translation>Giao thức `%1&apos; này không hỗ trợ đổi tên các tập tin và thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The protocol `%1&apos; does not support getting files</source>
-        <translation>Giao thức `%1&apos; này không hỗ trợ việc nhận các tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The protocol `%1&apos; does not support putting files</source>
-        <translation>Giao thức `%1&apos; này không hỗ trợ việc đặt tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The protocol `%1&apos; does not support copying or moving files or directories</source>
-        <translation>Giao thức `%1&apos; này không hỗ trợ sao chép hoặc di chuyển các tập tin hay thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>(unknown)</source>
-        <translation>(không biết)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Q3Wizard</name>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&amp;Quay lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Tiếp theo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;Hoàn thành</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Trợ giúp</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Host not found</source>
-        <translation>Không tìm thấy máy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Kết nối bị từ trối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Thao tác trên Socket đã quá giờ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Socket không được kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Step up</source>
-        <translation>&amp;Tăng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>&amp;Giảm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Select All</source>
-        <translation>Chọn &amp;tất cả</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Activate</source>
-        <translation>Kích hoạt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Để chạy &apos;%1&apos; yêu cầu Qt %2, hiện có Qt %3.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Lỗi thư viện Qt không tương thích</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>QT_LAYOUT_DIRECTION</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Activates the program&apos;s main window</source>
-        <translation>Kích hoạt cửa sổ chính của chương trình</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QCheckBox</name>
     <message>
         <source>Uncheck</source>
-        <translation>Bỏ chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Check</source>
-        <translation>Chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>Bật/Tắt</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>Màu &amp;sắc:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>Độ đậ&amp;m:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;Giá trị:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;Màu đỏ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>&amp;Lục:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>L&amp;am:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>Kênh A&amp;lpha:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>Các màu &amp;cơ bản</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>Các màu tùy &amp;chỉnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;Thêm vào bộ màu tùy chỉnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select color</source>
-        <translation>Chọn màu</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>Open</source>
-        <translation>Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>False</source>
-        <translation>False</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>True</source>
-        <translation>True</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -776,1507 +760,1511 @@ thành
     <message>
         <source>%1: permission denied</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: quyền hạn bị cấm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: already exists</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: đã tồn tại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exists</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: không tồn tại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: out of resources</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: không có trong tài nguyên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: lỗi không biết %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: key thì rỗng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: không thể tạo key</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ftok bị lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Không thể kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Không thể hủy giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>Không thể đặt tự động gửi</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Không thể thực thi câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Không thể chuẩn bị câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Không thể trỏ biến tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>Không thể tìm lại bản ghi %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Không thể tìm lại cái kế tiếp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Không thể tìm lại cái đầu tiên</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QDateTimeEdit</name>
     <message>
         <source>AM</source>
-        <translation>SA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>am</source>
-        <translation>sa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>CH</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>ch</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QDial</name>
     <message>
         <source>QDial</source>
-        <translation>QDial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SpeedoMeter</source>
-        <translation>SpeedoMeter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SliderHandle</source>
-        <translation>SliderHandle</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
+        <translatorcomment></translatorcomment>
         <translation>Đây là gì?</translation>
     </message>
     <message>
         <source>Done</source>
+        <translatorcomment></translatorcomment>
         <translation>Hoàn tất</translation>
     </message>
 </context>
 <context>
-    <name>QCocoaTheme</name>
-    <message>
-        <source>Don&apos;t Save</source>
-        <translation>Không lưu trữ</translation>
-    </message>
-</context>
-<context>
-    <name>QPlatformTheme</name>
+    <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
+        <translatorcomment></translatorcomment>
         <translation>Đồng ý</translation>
     </message>
     <message>
         <source>Save</source>
+        <translatorcomment></translatorcomment>
         <translation>Lưu trữ</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Mở</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Mở tài liệu</translation>
     </message>
     <message>
         <source>Cancel</source>
+        <translatorcomment></translatorcomment>
         <translation>Hủy bỏ</translation>
     </message>
     <message>
         <source>Close</source>
+        <translatorcomment></translatorcomment>
         <translation>Đóng lại</translation>
     </message>
     <message>
         <source>Apply</source>
+        <translatorcomment></translatorcomment>
         <translation>Áp dụng</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Trả lại m/định</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Đặt lại</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Trợ giúp</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Giúp đỡ</translation>
+    </message>
+    <message>
+        <source>Don&apos;t Save</source>
+        <translatorcomment></translatorcomment>
+        <translation>Đừng lưu trữ</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Không lưu trữ</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Không cần lưu trữ</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>Đồ&amp;ng ý</translation>
+        <translatorcomment></translatorcomment>
+        <translation>&amp;Đồng ý</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
+        <translatorcomment></translatorcomment>
         <translation>Đồng ý &amp;hết</translation>
     </message>
     <message>
         <source>&amp;No</source>
+        <translatorcomment></translatorcomment>
         <translation>&amp;Không</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>Không &amp;tất cả</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Lưu trữ tất cả</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Lưu trữ hết</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Hủy</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Bỏ không làm nữa</translation>
     </message>
     <message>
         <source>Retry</source>
+        <translatorcomment></translatorcomment>
         <translation>Thử lại</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Cho qua</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Mặc kệ</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Phục hồi lại mặc định</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Phục hồi lại phần định sẵn</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Đóng mà không cần lưu</translation>
+        <translatorcomment></translatorcomment>
+        <translation>Đóng lại, không cần lưu trữ gì</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>Đồ&amp;ng ý</translation>
+        <translatorcomment></translatorcomment>
+        <translation>&amp;Đồng ý</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>Tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Kích cỡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Dạng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Kiểu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Ngày giờ sửa đổi</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QDockWidget</name>
     <message>
         <source>Close</source>
-        <translation>Đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Dock</source>
-        <translation>Sáp nhập</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Float</source>
-        <translation>Tách rời</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QDoubleSpinBox</name>
     <message>
         <source>More</source>
-        <translation>Thêm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Less</source>
-        <translation>Bớt</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>Thông điệp gỡ rối:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>Chú ý:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>Lỗi nghiêm trọng:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>&amp;Hiện thông điệp này lần nữa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>Đồ&amp;ng ý</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
         <source>All Files (*)</source>
-        <translation>Mọi tập tin (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Các thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Lưu trữ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 đã tồn tại.
-Bạn có muốn thay thế nó không?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
-        <translation>%1
-Tập tin không tìm thấy.
-Vui lòng kiểm lại chính xác tên tập tin đã nhập.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>My Computer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>Đổi &amp;tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Xóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>Hiện tập tin ẩ&amp;n</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Quay lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>Thư mục cha</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Xem dạng danh sách</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>Xem dạng chi tiết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>Các tập tin kiểu:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>Thư mục:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
-        <translation>%1
-Thư mục không tìm thấy.
-Vui lòng kiểm lại chính xác tên thư mục đã nhập.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>&apos;%1&apos; được viết bảo vệ.
-Bạn muốn xóa nó bằng mọi cách?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are sure you want to delete &apos;%1&apos;?</source>
-        <translation>Bạn có chắc muốn xóa &apos;%1&apos;?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>Không thể xóa thư mục này.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>Lưu với tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>Ổ đĩa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>Tìm Thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>Hiển thị</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Chuyển tiếp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Thư mục mới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>&amp;Thư mục mới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>&amp;Chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Loại bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>&amp;Tên tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Look in:</source>
-        <translation>Xem qua:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>Tạo thư mục mới</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>Invalid filename</source>
-        <translation>Tên tập tin không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
-        <translation>&lt;b&gt;Cái tên &quot;%1&quot; không dùng được.&lt;/b&gt;&lt;p&gt;Thử một tên khác với một vài ký tự hoặc các dấu chấm câu.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Kích cỡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Dạng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Kiểu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Ngày giờ sửa đổi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>My Computer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>Computer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 TB</source>
-        <translation>%1 TB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 bytes</source>
-        <translation>%1 bytes</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QFontDatabase</name>
     <message>
         <source>Normal</source>
-        <translation>Bình thường</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Đậm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>Đậm vừa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>Đen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Demi</source>
-        <translation>Vừa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Sáng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Nghiêng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Lệch</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Tùy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>Latin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>Greek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>Cyrillic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>Armenian</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>Hebrew</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>Arabic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>Syriac</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>Thaana</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>Devanagari</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>Bengali</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>Gurmukhi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>Gujarati</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>Oriya</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>Tamil</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>Telugu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>Kannada</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Malayalam</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>Sinhala</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>Thai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>Lao</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>Tibetan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>Myanmar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>Georgian</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>Khmer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>Simplified Chinese</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>Traditional Chinese</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japanese</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>Korean</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>Vietnamese</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Ký hiệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>Ogham</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>Runic</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Phông</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>&amp;Kiểu phông</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Cỡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>Hiệu ứng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>&amp;Gạch ngang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>Gạch &amp;dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Mẫu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>Hệ thống ghi &amp;chép</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select Font</source>
-        <translation>Chọn phông</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>Không được kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>Máy %1 không tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>Từ chối kết nối tới máy %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>Đã kết nối tới máy %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection refused for data connection</source>
-        <translation>Từ chối đối với kết nối dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>Việc kết nối tới máy bị lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>Đăng nhập lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>Liệt kê thư mục lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>Việc thay đổi thư mục lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>Việc tải tập tin về lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>Việc tải tập tin lên lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>Việc loại bỏ tập tin lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>Việc tạo thư mục lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>Việc loại bỏ thư mục lỗi:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Kết nối đã đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host %1 found</source>
-        <translation>Máy %1 đã tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection to %1 closed</source>
-        <translation>Kết nối tới %1 đã đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host found</source>
-        <translation>Máy đã tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connected to host</source>
-        <translation>Đã kết nối tới máy</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>Host not found</source>
-        <translation>Máy không tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>Kiểu địa chỉ chưa biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Request aborted</source>
-        <translation>Truy vấn đã hủy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No server set to connect to</source>
-        <translation>Không có máy chủ nào thiết lập kết nối tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Wrong content length</source>
-        <translation>Độ dài nội dung bị sai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Server closed connection unexpectedly</source>
-        <translation>Máy chủ đã bất ngờ đóng kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Từ chối kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>Máy %1 không tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HTTP request failed</source>
-        <translation>Truy vấn HTTP bị sai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid HTTP response header</source>
-        <translation>Thông tin đầu tin hồi đáp HTTP không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid HTTP chunked body</source>
-        <translation>Dữ liệu phần thân gói tin HTTP không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host %1 found</source>
-        <translation>Máy %1 đã tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>Đã kết nối tới máy %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection to %1 closed</source>
-        <translation>Kết nối tới %1 đã đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host found</source>
-        <translation>Máy đã tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connected to host</source>
-        <translation>Đã kết nối tới máy chủ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Kết nối đã đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Proxy authentication required</source>
-        <translation>Yêu cầu xác thực Proxy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Yêu cầu xác thực</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection refused (or timed out)</source>
-        <translation>Kết nối bị từ chối (hoặc đã quá giờ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>Proxy yêu cầu xác thực</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>Máy chủ yêu cầu xác thực</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>Dữ liệu bị lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>Giao thức chỉ định không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>Bước SSL thỏa hiệp(handshake) bị lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HTTPS connection requested but SSL support not compiled in</source>
-        <translation>Kết nối HTTPS được yêu cầu nhưng hỗ trợ SSL không được biên dịch bên trong</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Authentication required</source>
-        <translation>Yêu cầu xác thực</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Lỗi khi mở cơ sở dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Không thể khởi tạo giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Không thể hủy bỏ giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>Không thể tạo BLOB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>Không thể thi BLOB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>Không thể mở BLOB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>Không thể đọc BLOB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>Không thể tìm thấy mảng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>Không thể lấy được mảng dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>Không thể lấy được thông tin truy vấn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Không thể khởi tạo giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>Không thể cấp phát câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>Không thể chuẩn bị câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Không thể mô tả câu lệnh nhập</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>Không thể mô tả câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>Không thể đóng câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Không thể thực thi truy vấn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>Không thể tìm lại mục kế tiếp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>Không thể lấy thông tin câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>Permission denied</source>
-        <translation>Quyền bị cấm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>Quá nhiều tập tin được mở</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>Không phải tập tin hay thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>Không còn không gian trên thiết bị</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QInputContext</name>
     <message>
         <source>XIM</source>
-        <translation>XIM</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>XIM input method</source>
-        <translation>Phương thức nhập XIM</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Windows input method</source>
-        <translation>Phương thức nhập Windows</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Mac OS X input method</source>
-        <translation>Phương thức nhập Mac OS X</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
         <source>QLibrary::load_sys: Cannot load %1 (%2)</source>
-        <translation>QLibrary::load_sys: Không thể nạp %1 (%2)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>QLibrary::unload_sys: Cannot unload %1 (%2)</source>
-        <translation>QLibrary::unload_sys: Không thể hủy nạp %1 (%2)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>QLibrary::resolve_sys: Symbol &quot;%1&quot; undefined in %2 (%3)</source>
-        <translation>QLibrary::resolve_sys: Ký hiệu &quot;%1&quot; không được định nghĩa trong %2 (%3)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not mmap &apos;%1&apos;: %2</source>
-        <translation>Không thể mmap &apos;%1&apos;: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Plugin verification data mismatch in &apos;%1&apos;</source>
-        <translation>Dữ liệu để xác minh khối phụ trợ không khớp với &apos;%1&apos;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not unmap &apos;%1&apos;: %2</source>
-        <translation>Không thể unmap &apos;%1&apos;: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>Khối phụ trợ &apos;%1&apos; này không tương thích với thư viện Qt. (%2.%3.%4) [%5]</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. Expected build key &quot;%2&quot;, got &quot;%3&quot;</source>
-        <translation>Khối phụ trợ &apos;%1&apos; này không tương thích với thư viện Qt. Khóa mong muốn &quot;%2&quot;, hiện đã có &quot;%3&quot;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>Thư viện dùng chung không tìm thấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>Tập tin &apos;%1&apos; này không phải là khối phụ trợ Qt hợp lệ.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>Khối phụ trợ &apos;%1&apos; không tương thích với thư viện Qt. (Không thể gộp thư viện gỡ lỗi và đóng gói với nhau.)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Hoàn tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Làm lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Cắt ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Sao chép</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Dán vào</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Xóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Chọn tất cả</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: Tên lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: Quyền bị cấm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: Địa chỉ này đã dùng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Lỗi không biết %2</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: Từ chối kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: Luồng điều khiển từ xa đã đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: Tên không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: Truy xuất Socket bị lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: Tài nguyên Socket lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: Thao tác trên Socket đã quá giờ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: Gói dữ liệu quá lớn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: Kết nối lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Thao tác này trên socket không hỗ trợ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Lỗi không biết %2</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to open database &apos;</source>
-        <translation>Không thể mở cơ sở dữ liệu &apos;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>Không thể kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Không thể khởi tạo giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Không thể hủy bỏ giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>Không thể tìm lại dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Không thể thực thi truy vấn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>Không thể lưu lại kết quả</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Không thể chuẩn bị câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Không thể trả câu lệnh về mặc định</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Không thể trỏ giá trị tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Không thể thực thi câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>Không thể trỏ giá trị ngoài tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>Không thể lưu lại kết quả câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>Không thể thực thi câu truy vấn kế tiếp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>Không thể lưu lại kết quả kế tiếp</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(Không tên)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMdiSubWindow</name>
     <message>
         <source>%1 - [%2]</source>
-        <translation>%1 - [%2]</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Thật nhỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Cho nhỏ lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>&amp;Trả lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>&amp;Di chuyển</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Cỡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>Thật &amp;nhỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>Thật &amp;lớn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>Đặt trên &amp;cùng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>Đó&amp;ng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>- [%1]</source>
-        <translation>- [%1]</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Thật lớn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>Không đổ bóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>Đổ bóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Trả lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Trợ giúp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Trình đơn</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMenu</name>
     <message>
         <source>Close</source>
-        <translation>Đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>Thực thi</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Help</source>
-        <translation>Trợ giúp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>Đồng ý</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Th/tin về Qt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Chương trình này sử dụng phiên bản Qt %1.&lt;/p&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show Details...</source>
-        <translation>Hiện chi tiết…</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>Ẩn chi tiết…</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;p&gt;This program uses Qt Open Source Edition version %1.&lt;/p&gt;&lt;p&gt;Qt Open Source Edition is intended for the development of Open Source applications. You need a commercial Qt license for development of proprietary (closed source) applications.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://www.trolltech.com/company/model/&quot;&gt;www.trolltech.com/company/model/&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Chương trình này sử dụng Bản sao Nguồn mở Qt phiên bản %1.&lt;/p&gt;&lt;p&gt;Bản sao Nguồn mở Qt được dành cho sự phát triển các ứng dụng Nguồn mở. Bạn cần có bản quyền thương mại của Qt để phát triển các ứng dụng chủ quyền riêng (nguồn đóng).&lt;/p&gt;&lt;p&gt;Vui lòng xem tại &lt;a href=&quot;http://www.trolltech.com/company/model/&quot;&gt;www.trolltech.com/company/model/&lt;/a&gt; để biết tổng quan về việc đăng ký bản quyền Qt.&lt;/p&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;%1&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qt for Embedded Linux and Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt is a Nokia product. See &lt;a href=&quot;http://www.trolltech.com/qt/&quot;&gt;www.trolltech.com/qt/&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Thông tin về Qt&lt;/h3&gt;%1&lt;p&gt;Qt là bộ công cụ C++ cho việc phát triển ứng dụng đa nền tảng.&lt;/p&gt;&lt;p&gt;Qt cung cấp bộ mã nguồn duy nhất linh hoạt cho các nền tảng MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, và tất cả các biến thể chính của nền tảng Unix thương mại. Qt cũng dùng được cho cả các thiết bị nhúng ví dụ Qt for Embedded Linux và Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt là một sản phẩm của Nokia. Xem tại &lt;a href=&quot;http://www.trolltech.com/qt/&quot;&gt;www.trolltech.com/qt/&lt;/a&gt; để biết thêm thông tin.&lt;/p&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMultiInputContext</name>
     <message>
         <source>Select IM</source>
-        <translation>Chọn IM</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QMultiInputContextPlugin</name>
     <message>
         <source>Multiple input method switcher</source>
-        <translation>Bộ chuyển đa phương thức nhập</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Multiple input method switcher that uses the context menu of the text widgets</source>
-        <translation>Bộ chuyển đa phương thức nhập sử dụng trình đơn ngữ cảnh của các widget văn bản</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Máy điều khiển từ xa đã đóng kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Thao tác mạng lưới đã quá giờ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>Hết tài nguyên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Thao tác socket này không hỗ trợ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Kiểu giao thức này không hỗ trợ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Bộ mô tả socket không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Hệ thống mạng này không thể đi tới đích</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>Quyền hạn bị cấm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Kết nối đã quá giờ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Từ chối kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Phạm vi địa chỉ này đang được dùng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>Địa chỉ này không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>Địa chỉ này được bảo vệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>Không thể gửi đi một thông điệp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
@@ -2284,835 +2272,832 @@ Bạn muốn xóa nó bằng mọi cách?</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>Không thể ghi được</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>Mạng lưới bị lỗi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Một socket khác đang lắng nghe tren cùng cổng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>Không thể khởi tạo một socket không có khóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>Không thể khởi tạo một broadcast socket </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>Thử dùng socket IPv6 trên nền tảng không hỗ trợ IPv6</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>Máy chủ không thể đi tới đích</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>Gói dữ liệu quá lớn để gửi đi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>Thao tác ở trạng thái không socket</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>Kiểu proxy này không hiệu lực cho thao tác này</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Câu truy vấn đòi mở tập tin không cục bộ %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>Mở tập tin lỗi %1: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Viết các lỗi ghi tới %1: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>Không thể mở %1: Đường dẫn là một thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>Xem các lỗi đọc từ %1: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>Không thể mở %1: là một thư mục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>Đăng nhập vào %1 bị lỗi: yêu cầu xác thực</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>Lỗi trong khi đang tải %1: %2 về</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>Lỗi trong khi đang tải %1: %2 lên</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
         <source>Error downloading %1 - server replied: %2</source>
-        <translation>Lỗi tải %1 về - máy chủ đã hồi đáp: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>Giao thức &quot;%1&quot; không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Thao tác đã hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QOCIDriver</name>
     <message>
         <source>Unable to logon</source>
-        <translation>Không thể đăng ký</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>Không thể khởi tạo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Không thể khởi tạo giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Không thể hủy bỏ giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>Không thể trỏ cột cho khối thực thi tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>Không thể thực thi khối lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>Không thể tiếp tục được</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>Không thể cấp phát câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Không thể chuẩn bị câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Không thể trỏ giá trị tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute select statement</source>
-        <translation>Không thể thực thi câu lệnh chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Không thể thực thi câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Không thể kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all needed functionality</source>
-        <translation>Không thể kết nối - Bộ thư viện điều khiển không hỗ trợ tất cả các chức năng được cần</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>Không thể vô hiệu tự động xác nhận</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Không thể hủy bỏ giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>Không thể kích hoạt tự động xác nhận</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: Không thể gán &apos;SQL_CURSOR_STATIC&apos; như thuộc tính câu lệnh. Vui lòng kiểm lại cấu hình điều khiển ODBC của bạn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Không thể thực thi câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Không thể tìm lại cái kế tiếp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Không thể chuẩn bị câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Không thể trỏ biến tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch last</source>
-        <translation>Không thể tìm lại cái vừa rồi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>Không thể tìm lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Không thể tìm lại cái đầu tiên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>Không thể tìm lại cái trước đó</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Operation not supported on %1</source>
-        <translation>Thao tác không hỗ trợ trên %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>URI không hợp lệ: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Viết các lỗi ghi tới %1: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>Xem các lỗi đọc từ %1: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>Socket bị lỗi trên %1: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Máy điều khiển từ xa đã đóng kết nối bất ngờ trên %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Protocol error: packet of size 0 received</source>
-        <translation>Giao thức lỗi: dung lượng gói nhận được là 0</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPPDOptionsModel</name>
     <message>
         <source>Name</source>
-        <translation>Tên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Giá trị</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Không thể kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>Không thể khởi tạo giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>Không thể hủy bỏ giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>Không thể đăng ký</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>Không thể không đăng ký</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Unable to create query</source>
-        <translation>Không thể tạo câu truy vấn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Không thể chuẩn bị câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Centimeters (cm)</source>
-        <translation>Xen-ti-met (cm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>Mi-li-met (mm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>Inch (in)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>Điểm (pt)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Dạng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>Giấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Cỡ giấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Rộng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Cao</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>Nguồn giấy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Hướng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Để dọc</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Để Ngang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>Đảo chiều ngang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>Đảo chiều dọc</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Canh lề</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>lề trên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>lề trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>lề phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>lề dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>Unknown error</source>
-        <translation>Lỗi không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>Khối phụ trợ không được nạp</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>locally connected</source>
-        <translation>đã kết nối cục bộ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Aliases: %1</source>
-        <translation>Biệt hiệu: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>In thành tập tin…</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>Tập tin %1 không thể ghi.
-Vui lòng chọn một tên khác.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 đã tồn tại.
-Bạn muốn ghi đè nó không?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 là thư mục.
-Vui lòng chọn một tên tập tin khác.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A0</source>
-        <translation>A0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A1</source>
-        <translation>A1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A2</source>
-        <translation>A2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A3</source>
-        <translation>A3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A4</source>
-        <translation>A4</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A5</source>
-        <translation>A5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A6</source>
-        <translation>A6</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A7</source>
-        <translation>A7</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A8</source>
-        <translation>A8</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A9</source>
-        <translation>A9</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B0</source>
-        <translation>B0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B1</source>
-        <translation>B1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B2</source>
-        <translation>B2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B3</source>
-        <translation>B3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B4</source>
-        <translation>B4</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B5</source>
-        <translation>B5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B6</source>
-        <translation>B6</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B7</source>
-        <translation>B7</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B8</source>
-        <translation>B8</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B9</source>
-        <translation>B9</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B10</source>
-        <translation>B10</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>C5E</source>
-        <translation>C5E</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>DLE</source>
-        <translation>DLE</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Executive</source>
-        <translation>Executive</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Folio</source>
-        <translation>Folio</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ledger</source>
-        <translation>Ledger</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Legal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Letter</source>
-        <translation>Letter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tabloid</source>
-        <translation>Tabloid</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>US Common #10 Envelope</source>
-        <translation>Bì thư Mỹ hay dùng #10</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Tùy chỉnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;Tùy chọn &gt;&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;In ấn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;Tùy chọn &lt;&lt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>In thành Tập tin (PDF)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print to File (Postscript)</source>
-        <translation>In thành tập tin (Postscript)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>Tập tin cục bộ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Write %1 file</source>
-        <translation>Ghi tập tin %1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Thiết lập trang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Xem trước khi in</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>Trang kế</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>Trang trước</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>Trang đầu tiên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>Trang sau cùng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>Khít ngang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>Toàn trang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Phong to</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Thu nhỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Để dọc</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Để ngang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>Hiện đơn trang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>Hiện trang đối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>Hiện tổng quan các trang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>In ấn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Thiết lập trang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Dạng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Trang</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Chi tiết</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>Dạng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Số bản cần sao</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Khoảng in</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>In tất cả</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>Các trang từ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>to</source>
-        <translation>tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>Vùng được chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>Thiết lập đầu ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>Số bản cần sao:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>Collate</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>Đảo ngược</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Tùy chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>Chế độ màu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Màu sắc</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>Dạng xám</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Duplex Printing</source>
-        <translation>In hai mặt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Không chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Long side</source>
-        <translation>Giấy dài</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Short side</source>
-        <translation>Giấy ngắn</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>Dạng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Máy in</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Tên:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>T&amp;huộc tính</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Định vị</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Xem trước</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Kiểu:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>Tập tin đầu &amp;ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>...</source>
-        <translation>…</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPushButton</name>
     <message>
         <source>Open</source>
-        <translation>Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QRadioButton</name>
     <message>
         <source>Check</source>
-        <translation>Chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>không có lỗi xảy ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>tính năng vô hiệu hóa thường dùng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad char class syntax</source>
@@ -3128,221 +3113,221 @@ Vui lòng chọn một tên tập tin khác.</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>giá trị bát phân không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>thiếu dấu phân tách bên trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>kết thúc không mong muốn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>đụng một giới hạn bên trong</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error to open database</source>
-        <translation>Lỗi để mở cơ sở dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Không thể khởi tạo giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to rollback Transaction</source>
-        <translation>Không thể hủy giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>Không thể tìm lại kết quả</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Không thể thực thi câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Lỗi mở cơ sở dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Lỗi đóng cơ sở dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Không thể khởi tạo giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Không thể xác nhận giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Không thể hủy giao tác</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>Không thể tìm lại dòng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Không thể thực thi câu lệnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Không thể trả câu lệnh về mặc định</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>Không thể trỏ các tham số tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>Tham số đếm không khớp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>Không có câu truy vấn</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Cuộn ở đây</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>Cạnh trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Trên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>Cạnh phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>Trang trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Trang trên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Trang phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Trang dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Cuộn trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Cuộn lên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Cuộn phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Cuộn xuống</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line up</source>
-        <translation>Dòng trên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Vị trí</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line down</source>
-        <translation>Dòng dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: không thể thiết lập khóa để khóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1: tạo kích cỡ nhỏ hơn 0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1: không thể khóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1: không thể mở khóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: quyền hạn bị cấm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: đã tồn tại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exists</source>
-        <translation>%1: không tồn tại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: hết tài nguyên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: lỗi không biết %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1: khóa thì rỗng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: unix key file doesn&apos;t exists</source>
-        <translation>%1: tập tin khóa unix không tồn tại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ftok bị sai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1: không thể tạo khóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
@@ -3350,7 +3335,7 @@ Vui lòng chọn một tên tập tin khác.</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1: không đính kèm</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3537,15 +3522,15 @@ Vui lòng chọn một tên tập tin khác.</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>Mở URL</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Khởi chạy Mail</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Khởi chạy Media</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Launch (0)</source>
@@ -3728,250 +3713,250 @@ Vui lòng chọn một tên tập tin khác.</translation>
     <name>QSlider</name>
     <message>
         <source>Page left</source>
-        <translation>Trang trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Trang trên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Định vị</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Trang phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Trang dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Socks5 timeout error connecting to socks server</source>
-        <translation>Socks5 bị lỗi quá giờ để kết nối tới các sock của máy chủ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Thao tác trên mạng lưới này đã quá giờ</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSpinBox</name>
     <message>
         <source>More</source>
-        <translation>Thêm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Less</source>
-        <translation>Bớt</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSql</name>
     <message>
         <source>Delete</source>
-        <translation>Xóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete this record?</source>
-        <translation>Xóa bản ghi này?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Có</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Không</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Chèn thêm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Update</source>
-        <translation>Cập nhật</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save edits?</source>
-        <translation>Lưu sửa đổi?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Xác nhận</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel your edits?</source>
-        <translation>Hủy các sửa đổi?</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
         <source>Unable to write data: %1</source>
-        <translation>Không thể ghi dữ liệu: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Lỗi khi đọc: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>Lỗi trong suốt bước thỏa hiệp(handshake) SSL: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error creating SSL context (%1)</source>
-        <translation>Lỗi tạo ngữ cảnh SSL (%1)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
-        <translation>Danh sách mã cipher rỗng hoặc không hợp lệ (%1)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error creating SSL session, %1</source>
-        <translation>Lỗi tạo phiên SSL, %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error creating SSL session: %1</source>
-        <translation>Lỗi tạo phiên SSL: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>Không thể cấp giấy chứng nhận không có khóa, %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
-        <translation>Lỗi nạp giấy chứng nhận cục bộ, %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Error loading private key, %1</source>
-        <translation>Lỗi nạp private key, %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Private key does not certificate public key, %1</source>
-        <translation>Private key không chứng nhận public key, %1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>Không thể mở kết nối</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>Không thể sử dụng cơ sở dữ liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>Cuộn trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Cuộn phải</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Hoàn tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Làm lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Cắt ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Sao chép</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Sao chép địa chỉ liên &amp;kết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Dán vào</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Xóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Chọn tất cả</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QToolButton</name>
     <message>
         <source>Press</source>
-        <translation>Nhấn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Mở</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>This platform does not support IPv6</source>
-        <translation>Nến tảng này không hỗ trợ IPv6</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo</source>
-        <translation>Hoàn tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Làm lại</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;rỗng&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo</source>
-        <translation>Hoàn tác</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Làm lại</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM Từ trái qua phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM Từ phải qua trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
@@ -4007,41 +3992,41 @@ Vui lòng chọn một tên tập tin khác.</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>Chèn thêm ký tự điều khiển Unicode</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QWebFrame</name>
     <message>
         <source>Request cancelled</source>
-        <translation>Truy vấn đã hủy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Request blocked</source>
-        <translation>Truy vấn đã khóa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cannot show URL</source>
-        <translation>Không thể hiện URL</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Frame load interruped by policy change</source>
-        <translation>Khung nạp bị ngắt bởi thay đổi chính sách</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cannot show mimetype</source>
-        <translation>Không thể hiện mimetype</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File does not exist</source>
-        <translation>Tập tin không tồn tại</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QWebPage</name>
     <message>
         <source>Bad HTTP request</source>
-        <translation>Truy vấn HTTP sai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Submit</source>
@@ -4056,427 +4041,427 @@ Vui lòng chọn một tên tập tin khác.</translation>
     <message>
         <source>Reset</source>
         <comment>default label for Reset buttons in forms on web pages</comment>
-        <translation>Trả về mặc định</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This is a searchable index. Enter search keywords: </source>
         <comment>text that appears at the start of nearly-obsolete web pages in the form of a &apos;searchable index&apos;</comment>
-        <translation>Đây là chỉ mục có thể tìm kiếm. Nhập từ khóa để tìm: </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Choose File</source>
         <comment>title for file button used in HTML forms</comment>
-        <translation>Chọn tập tin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No file selected</source>
         <comment>text to display in file button used in HTML forms when no file is selected</comment>
-        <translation>Không có tập tin được chọn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open in New Window</source>
         <comment>Open in New Window context menu item</comment>
-        <translation>Mở trong cửa sổ mới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save Link...</source>
         <comment>Download Linked File context menu item</comment>
-        <translation>Lưu liên kết mạng…</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copy Link</source>
         <comment>Copy Link context menu item</comment>
-        <translation>Sao chép liên kết mạng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open Image</source>
         <comment>Open Image in New Window context menu item</comment>
-        <translation>Mở ảnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save Image</source>
         <comment>Download Image context menu item</comment>
-        <translation>Lưu ảnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copy Image</source>
         <comment>Copy Link context menu item</comment>
-        <translation>Sao chép ảnh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open Frame</source>
         <comment>Open Frame in New Window context menu item</comment>
-        <translation>Mở Frame</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copy</source>
         <comment>Copy context menu item</comment>
-        <translation>Sao chép</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Go Back</source>
         <comment>Back context menu item</comment>
-        <translation>Trở lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Go Forward</source>
         <comment>Forward context menu item</comment>
-        <translation>Tiến tới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Stop</source>
         <comment>Stop context menu item</comment>
-        <translation>Ngưng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reload</source>
         <comment>Reload context menu item</comment>
-        <translation>Nạp lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cut</source>
         <comment>Cut context menu item</comment>
-        <translation>Cắt ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paste</source>
         <comment>Paste context menu item</comment>
-        <translation>Dán vào</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No Guesses Found</source>
         <comment>No Guesses Found context menu item</comment>
-        <translation>Không thấy khách nào</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ignore</source>
         <comment>Ignore Spelling context menu item</comment>
-        <translation>Cho qua</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Add To Dictionary</source>
         <comment>Learn Spelling context menu item</comment>
-        <translation>Thêm vào từ điển</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Search The Web</source>
         <comment>Search The Web context menu item</comment>
-        <translation>Tìm trang này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Look Up In Dictionary</source>
         <comment>Look Up in Dictionary context menu item</comment>
-        <translation>Tìm trong từ điển</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open Link</source>
         <comment>Open Link context menu item</comment>
-        <translation>Mở liên kết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ignore</source>
         <comment>Ignore Grammar context menu item</comment>
-        <translation>Cho qua</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Spelling</source>
         <comment>Spelling and Grammar context sub-menu item</comment>
-        <translation>Kiểm chính tả</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show Spelling and Grammar</source>
         <comment>menu item title</comment>
-        <translation>Hiện lỗi Chính tả và Văn phạm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hide Spelling and Grammar</source>
         <comment>menu item title</comment>
-        <translation>Ẩn lỗi Chính tả và Văn phạm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Check Spelling</source>
         <comment>Check spelling context menu item</comment>
-        <translation>Kiểm chính tả</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Check Spelling While Typing</source>
         <comment>Check spelling while typing context menu item</comment>
-        <translation>Kiểm chính tả khi đang gõ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Check Grammar With Spelling</source>
         <comment>Check grammar with spelling context menu item</comment>
-        <translation>Kiểm văn phạm với chính tả</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fonts</source>
         <comment>Font context sub-menu item</comment>
-        <translation>Phông chữ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bold</source>
         <comment>Bold context menu item</comment>
-        <translation>Đậm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Italic</source>
         <comment>Italic context menu item</comment>
-        <translation>Nghiêng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Underline</source>
         <comment>Underline context menu item</comment>
-        <translation>Gạch dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Outline</source>
         <comment>Outline context menu item</comment>
-        <translation>Viền ngoài</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Direction</source>
         <comment>Writing direction context sub-menu item</comment>
-        <translation>Hướng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default</source>
         <comment>Default writing direction context menu item</comment>
-        <translation>Mặc định</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>LTR</source>
         <comment>Left to Right context menu item</comment>
-        <translation>LTR</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>RTL</source>
         <comment>Right to Left context menu item</comment>
-        <translation>RTL</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Inspect</source>
         <comment>Inspect Element context menu item</comment>
-        <translation>Tra đối tượng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No recent searches</source>
         <comment>Label for only item in menu that appears when clicking on the search field image, when no searches have been performed</comment>
-        <translation>Không tìm gì gần đây</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Recent searches</source>
         <comment>label for first item in the menu that appears when clicking on the search field image, used as embedded menu title</comment>
-        <translation>Các mục tìm gần đây</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Clear recent searches</source>
         <comment>menu item in Recent Searches menu that empties menu&apos;s contents</comment>
-        <translation>Xóa các mục tìm gần đây</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unknown</source>
         <comment>Unknown filesize FTP directory listing item</comment>
-        <translation>Không biết</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 (%2x%3 pixels)</source>
         <comment>Title string for images</comment>
-        <translation>%1 (%2x%3 điểm-ảnh)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Web Inspector - %2</source>
-        <translation>Bộ giám sát Web - %2</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Đây là gì?</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QWidget</name>
     <message>
         <source>*</source>
-        <translation>*</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>Trở lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Tiếp tục</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>Xác nhận</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Hoàn thành</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Thoát</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Trợ giúp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;Quay lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;Hoàn thành</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Hủy bỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Trợ giúp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Tiếp theo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Tiếp theo &gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QWorkspace</name>
     <message>
         <source>&amp;Restore</source>
-        <translation>&amp;Phục hồi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>&amp;Di chuyển</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Cỡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>Thật &amp;nhỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>Thật &amp;lớn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>Đó&amp;ng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>Đặt trên &amp;cùng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sh&amp;ade</source>
-        <translation>Đổ &amp;bóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 - [%2]</source>
-        <translation>%1 - [%2]</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Thật nhỏ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Cho nhỏ lại</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Đóng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Unshade</source>
-        <translation>&amp;Không đổ bóng</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>không có lỗi xảy ra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>lỗi gây ra bởi người dùng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>tập tin kết thúc không bình thường</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>có nhiều hơn một định nghĩa về kiểu tài liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>lỗi xảy ra khi phân tách một element</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>thẻ không khớp</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>lỗi xảy ra khi phân tách nội dung</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>ký tự không mong muốn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>tên không hợp lệ cho chỉ thị xử lý</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>thuộc tính version thì cần khi đọc tài liệu XML này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>giá trị thuộc tính standalone khai báo sai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>khai báo thuộc tính encoding hoặc standalone thì cần khi đọc tài liệu XML này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>khai báo thuộc tính standalone thì cần khi đọc tài liệu XML này</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>lỗi xảy ra khi phân tách định nghĩa về kiểu tài liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>ký tự mong muốn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>lỗi xảy ra khi phân tách comment</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>lỗi xảy ra khi phân tách reference</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
@@ -4507,55 +4492,55 @@ Vui lòng chọn một tên tập tin khác.</translation>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>Nội dung mở rộng ở cuối tài liệu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>Giá trị thực thể không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>Ký tự XML không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>Chuỗi &apos;]]&gt;&apos; không cho phép trong nội dung</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>Tiền tố Namespace &apos;%1&apos; không được khai báo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Attribute redefined.</source>
-        <translation>Bị trùng thuộc tính</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>Ký tự không mong muốn &apos;%1&apos; trong hằng số public id</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>Chuỗi version XML không hợp lệ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>Phiên bản XML không hỗ trợ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 là một tên encoding không hợp lệ.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>Bảng mã %1 không hỗ trợ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>Thuộc tính standalone chỉ là yes hoặc no.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Có thuộc tính không hợp lệ trong tài liệu XML.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Premature end of document.</source>
@@ -4563,23 +4548,23 @@ Vui lòng chọn một tên tập tin khác.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>Tài liệu không hợp lệ.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Expected </source>
-        <translation>Mong muốn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>, but got &apos;</source>
-        <translation>, nhưng hiện tại là &apos;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unexpected &apos;</source>
-        <translation>Không mong muốn &apos;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>Dữ liệu ký tự mong muốn</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
@@ -5233,66 +5218,66 @@ Vui lòng chọn một tên tập tin khác.</translation>
     <name>VolumeSlider</name>
     <message>
         <source>Muted</source>
-        <translation>Im lặng</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Volume: %1%</source>
-        <translation>Âm lượng: %1%</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>WebCore::PlatformScrollbar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Cuộn ở đây</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>Cạnh trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Trên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>Cạnh phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>Trang trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Trang trên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Trang phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Trang dưới</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Cuộn trái</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Cuộn lên</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Cuộn phải</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Cuộn xuống</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

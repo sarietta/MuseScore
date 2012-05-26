@@ -5,6 +5,7 @@
 =====================================================================
     MuseScore
     Linux Music Score Editor
+    $Id: mscore.cpp 1850 2009-05-25 07:44:35Z wschweer $
 
     Copyright (C) 2009 Werner Schweer and others
 
@@ -32,7 +33,6 @@
 -->
   <font id="0" family="MuseJazz">
     <mag>1.33</mag>                    <!-- for compatibility with older versions of MuseJazz -->
-
     <sym code="0xe180" name="Maj"/>    <!-- ma -->
     <sym code="0xe181" name="m"/>      <!-- mi -->
     <sym code="0xe192" name="2"/>
@@ -57,12 +57,6 @@
     <sym code="0xe189" name="s#"/>
     <sym code="0xe18b" name="add"/>
     <sym code="0xe18c" name="add11"/>
-
-  <!-- delete code parameter to render German chords with "es" and "is" -->
-    <sym code="0x266d" class="accidental" name="es"/>
-    <sym code="0x266d" class="accidental" name="s"/>
-    <sym code="0x266f" class="accidental" name="is"/>
-
     </font>
 
 <!--
@@ -72,14 +66,13 @@
          render   this is a script which contains render commands
                   commands:
                         xxx         draw symbol name xxx
-                        m:x:y       add x:y to current position (1/5 spatium units)
+                        m:x:y       add x:y (point) to current position
 -->
 
   <renderRoot>:n :a</renderRoot>
   <renderBase>/ m:0:1 :n :a m:0:-1</renderBase>
 
   <chord id="1">
-    <name></name>
     <render></render>
     </chord>
   <chord id="2">

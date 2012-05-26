@@ -5,6 +5,7 @@
 =====================================================================
     MuseScore
     Linux Music Score Editor
+    $Id: mscore.cpp 1850 2009-05-25 07:44:35Z wschweer $
 
     Copyright (C) 2009 Werner Schweer and others
 
@@ -128,7 +129,7 @@
   <!ENTITY p_lp "(">
   <!ENTITY p_rp ")">
 <!-- use these declarations instead to eliminate the parens in the above and use superscript instead (commented out by default)
-  <!ENTITY d_lp "m:0:-4">
+  <!ENTITY d_lp "m:0:-4"> 
   <!ENTITY d_rp "m:0:4">
   <!ENTITY p_lp "">
   <!ENTITY p_rp ""> -->
@@ -137,7 +138,7 @@
   <!ENTITY d_alp "m:1:-5 s( m:0:5">
   <!ENTITY d_arp "m:0:-5 s) m:0:5">
 <!-- use these declarations instead to eliminate the parens in the above
-  <!ENTITY d_alp "">
+  <!ENTITY d_alp ""> 
   <!ENTITY d_arp ""> -->
 
 <!-- these numbers are used for primary extensions: eg, the 7 in C7b9 -->
@@ -202,7 +203,7 @@
       configured text style font family is used.
 -->
 
-  <font id="0" family="MuseJazz Text">
+  <font id="0" family="MuseJazz">
 
     <sym code="0x28" name="("/>
     <sym code="0x29" name=")"/>
@@ -239,20 +240,6 @@
     <sym code="0xe10c" name="#"/>
     <sym code="0xe10d" name="b"/>
 
-    <sym class="note" name="a"/>
-    <sym class="note" name="b"/>
-    <sym class="note" name="c"/>
-    <sym class="note" name="d"/>
-    <sym class="note" name="e"/>
-    <sym class="note" name="f"/>
-    <sym class="note" name="g"/>
-    <sym class="note" name="h"/>
-
-<!-- delete code parameter to render German chords with "es" and "is" -->
-    <sym code="0x266d" class="accidental" name="es"/>
-    <sym code="0x266d" class="accidental" name="s"/>
-    <sym code="0x266f" class="accidental" name="is"/>
-
 <!-- Italian / solfege chord names
     <sym code="0xe201" name="C"/>
     <sym code="0xe202" name="D"/>
@@ -264,7 +251,7 @@
 
     </font>
 
-  <font id="2" family="MuseJazz Text">
+  <font id="2" family="MuseJazz">
     <mag>1.25</mag>
 
     <sym code="0xe190" name="0"/>
@@ -286,15 +273,13 @@
 
     </font>
 
-  <font id="108" family="MuseJazz Text">
+  <font id="108" family="MuseJazz">
     <mag>0.8</mag>
 
     <sym code="0x28" name="s("/>
     <sym code="0x29" name="s)"/>
 
     <sym code="0xe18a" name="striangle"/>
-
-    <sym class="note" name="mi"/>
 
 <!-- true lower case letters -->
     <sym code="0x61" name="a"/>
@@ -326,7 +311,7 @@
 
     </font>
 
-  <font id="106" family="MuseJazz Text">
+  <font id="106" family="MuseJazz">
     <mag>0.55</mag>
 
 <!-- small caps letters
@@ -366,7 +351,7 @@
          render   this is a script which contains render commands
                   commands:
                         xxx         draw symbol name xxx
-                        m:x:y       add x:y to current position (1/5 spatium units)
+                        m:x:y       add x:y (point) to current position
                         :push
                         :pop
                         :n          root or base note
@@ -377,7 +362,6 @@
   <renderBase>/ m:0:1 :n :a m:0:-1</renderBase>
 
   <chord id="1">
-    <name></name>
     <render></render>
     </chord>
   <chord id="2">
@@ -950,7 +934,7 @@
     </chord>
 
   <chord id="210">
-    <name>&parse_major;7#11</name>
+    <name>&parse_major;7&p_alp;#11&p_arp;</name>
     <xml>major-seventh</xml>
     <degree>add#11</degree>
     <voicing>C E G B F#</voicing>
@@ -958,7 +942,7 @@
     </chord>
 
   <chord id="211">
-    <name>&parse_major;9#5</name>
+    <name>&parse_major;9&p_alp;#5&p_arp;</name>
     <xml>major-ninth</xml>
     <degree>alt#5</degree>
     <voicing>C E G# B D</voicing>
@@ -966,7 +950,7 @@
     </chord>
 
   <chord id="212">
-    <name>&parse_major;7#9</name>
+    <name>&parse_major;7&p_alp;#9&p_arp;</name>
     <xml>major-seventh</xml>
     <degree>add#9</degree>
     <voicing>C E G B D#</voicing>
@@ -1018,7 +1002,7 @@
     </chord>
 
   <chord id="220">
-    <name>&parse_minor;7b9</name>
+    <name>&parse_minor;7&p_alp;b9&p_arp;</name>
     <xml>minor-seventh</xml>
     <degree>addb9</degree>
     <voicing>C Eb G Bb Db</voicing>
@@ -1026,7 +1010,7 @@
     </chord>
 
   <chord id="221">
-    <name>&parse_minor;7b13</name>
+    <name>&parse_minor;7&p_alp;b13&p_arp;</name>
     <xml>minor-seventh</xml>
     <degree>addb13</degree>
     <voicing>C Eb G Bb Ab</voicing>
@@ -1051,7 +1035,7 @@
     </chord>
 
   <chord id="230">
-    <name>7b9#9</name>
+    <name>7&p_alp;b9#9&p_arp;</name>
     <xml>dominant</xml>
     <degree>addb9</degree>
     <degree>add#9</degree>
@@ -1069,7 +1053,7 @@
     </chord>
 
   <chord id="241">
-    <name>&parse_major;7b13</name>
+    <name>&parse_major;7&p_alp;b13&p_arp;</name>
     <xml>major-seventh</xml>
     <degree>addb13</degree>
     <voicing>C E G B Ab</voicing>

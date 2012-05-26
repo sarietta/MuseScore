@@ -1,6 +1,7 @@
 #=============================================================================
 #  Mscore
 #  Linux Music Score Editor
+#  $Id:$
 #
 #  Copyright (C) 2009 by Werner Schweer and others
 #
@@ -17,22 +18,15 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #=============================================================================
 
-set(MODULE rtf2html)
+add_library (
+  rtf2html STATIC
+  fmt_opts.cpp
+  rtf2html.cpp
+  rtf_keyword.cpp
+  rtf_table.cpp
+  )
 
-set(MODULE_SRC
-    common.h
-    config.h
-    dbg_iter.h
-    fmt_opts.cpp
-    fmt_opts.h
-    rtf2html.cpp
-    rtf_keyword.cpp
-    rtf_keyword.h
-    rtf_table.cpp
-    rtf_table.h
-    rtf_tools.h
-    )
+set_target_properties( rtf2html
+   PROPERTIES COMPILE_FLAGS "-include ${PROJECT_BINARY_DIR}/all.h"
+   )
 
-include(${PROJECT_SOURCE_DIR}/build/module.cmake)
-
-target_no_warning(${MODULE} -Wno-conversion)

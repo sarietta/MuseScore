@@ -5,6 +5,7 @@
 =====================================================================
     MuseScore
     Linux Music Score Editor
+    $Id: mscore.cpp 1850 2009-05-25 07:44:35Z wschweer $
 
     Copyright (C) 2009 Werner Schweer and others
 
@@ -127,7 +128,7 @@
     </chord>
   <chord id="18">
     <name>mMaj7</name>
-    <xml>major-minor</xml>
+    <xml>minor-major</xml>
     <voicing>C Eb G B</voicing>
     </chord>
   <chord id="19">
@@ -1035,7 +1036,7 @@
     </chord>
   <chord id="195">
     <name>Tristan</name>
-    <xml>Tristan</xml>
+    <xml>tristan</xml>
     <voicing>C F# A# D</voicing>
     </chord>
   <chord id="196">
@@ -1128,7 +1129,7 @@
   <chord id="213">
     <name>add2</name>
     <xml>major</xml>
-    <degree>add2</degree>
+    <degree>add9</degree>
     <voicing>C D E G</voicing>
     </chord>
   <chord id="214">
