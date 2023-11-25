@@ -349,6 +349,11 @@ bool ExportMidi::write(QIODevice* device, bool midiExpandRepeats, bool exportRPN
                             } else {
                                 track.insert(m_pauseMap.addPauseTicks(item.first), MidiEvent(ME_NOTEON, channel,
                                                                                              event.pitch(), event.velo()));
+                                if (event.velo() != 0) {
+                                    track.insert(
+                                        m_pauseMap.addPauseTicks(i->first),
+                                        MidiEvent(ME_CONTROLLER, channel, CTRL_MODULATION, event.velo()));
+                                }
                             }
                         } else if (event.type() == ME_CONTROLLER) {
                             track.insert(m_pauseMap.addPauseTicks(item.first), MidiEvent(ME_CONTROLLER, channel,
