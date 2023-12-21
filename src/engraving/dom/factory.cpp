@@ -101,6 +101,7 @@
 #include "text.h"
 #include "textline.h"
 #include "tie.h"
+#include "timemarker.h"
 #include "timesig.h"
 #include "tremolo.h"
 #include "tremolotwochord.h"
@@ -169,6 +170,7 @@ EngravingItem* Factory::doCreateItem(ElementType type, EngravingItem* parent)
     case ElementType::MMREST_RANGE:      return new MMRestRange(parent->isMeasure() ? toMeasure(parent) : dummy->measure());
     case ElementType::INSTRUMENT_NAME:   return new InstrumentName(parent->isSystem() ? toSystem(parent) : dummy->system());
     case ElementType::STAFF_TEXT:        return new StaffText(parent->isSegment() ? toSegment(parent) : dummy->segment());
+    case ElementType::TIME_MARKER:       return new TimeMarker(parent->isSegment() ? toSegment(parent) : dummy->segment());
     case ElementType::PLAYTECH_ANNOTATION: return new PlayTechAnnotation(parent->isSegment() ? toSegment(parent) : dummy->segment());
     case ElementType::CAPO:              return new Capo(parent->isSegment() ? toSegment(parent) : dummy->segment());
     case ElementType::SYSTEM_TEXT:       return new SystemText(parent->isSegment() ? toSegment(parent) : dummy->segment());
@@ -530,6 +532,14 @@ StaffText* Factory::createStaffText(Segment * parent, TextStyleType textStyleTyp
     staffText->setAccessibleEnabled(isAccessibleEnabled);
 
     return staffText;
+}
+
+TimeMarker* Factory::createTimeMarker(EngravingItem* destination, Segment * parent, TextStyleType textStyleType, bool isAccessibleEnabled)
+{
+    TimeMarker* timeMarker = new TimeMarker(destination, parent, textStyleType);
+    timeMarker->setAccessibleEnabled(isAccessibleEnabled);
+
+    return timeMarker;
 }
 
 Expression* Factory::createExpression(Segment* parent, bool isAccessibleEnabled)

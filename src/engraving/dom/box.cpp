@@ -33,6 +33,7 @@
 #include "stafftext.h"
 #include "system.h"
 #include "text.h"
+#include "timemarker.h"
 #include "undo.h"
 
 #include "log.h"
@@ -308,6 +309,7 @@ bool Box::acceptDrop(EditData& data) const
     case ElementType::LAYOUT_BREAK:
     case ElementType::TEXT:
     case ElementType::STAFF_TEXT:
+    case ElementType::TIME_MARKER:
     case ElementType::IMAGE:
     case ElementType::SYMBOL:
         return true;
@@ -379,6 +381,16 @@ EngravingItem* Box::drop(EditData& data)
         Text* text = Factory::createText(this, TextStyleType::FRAME);
         text->setParent(this);
         text->setXmlText(toStaffText(e)->xmlText());
+        score()->undoAddElement(text);
+        delete e;
+        return text;
+    }
+
+      case ElementType::TIME_MARKER:
+    {
+        Text* text = Factory::createText(this, TextStyleType::FRAME);
+        text->setParent(this);
+        text->setXmlText(toTimeMarker(e)->xmlText());
         score()->undoAddElement(text);
         delete e;
         return text;

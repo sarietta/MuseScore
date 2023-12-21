@@ -287,6 +287,7 @@ EngravingItem* ChordRest::drop(EditData& data)
     // fall through
     case ElementType::TEXT:
     case ElementType::STAFF_TEXT:
+    case ElementType::TIME_MARKER:
     case ElementType::SYSTEM_TEXT:
     case ElementType::TRIPLET_FEEL:
     case ElementType::PLAYTECH_ANNOTATION:

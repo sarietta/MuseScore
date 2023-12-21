@@ -258,6 +258,7 @@ enum class ElementType {
     TEMPO_TEXT            = int(mu::engraving::ElementType::TEMPO_TEXT),
     STAFF_TEXT            = int(mu::engraving::ElementType::STAFF_TEXT),
     SYSTEM_TEXT           = int(mu::engraving::ElementType::SYSTEM_TEXT),
+    TIME_MARKER           = int(mu::engraving::ElementType::TIME_MARKER),
     PLAYTECH_ANNOTATION   = int(mu::engraving::ElementType::PLAYTECH_ANNOTATION),
     TRIPLET_FEEL          = int(mu::engraving::ElementType::TRIPLET_FEEL),
     REHEARSAL_MARK        = int(mu::engraving::ElementType::REHEARSAL_MARK),

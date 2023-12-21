@@ -79,6 +79,7 @@
 #include "dom/text.h"
 #include "dom/textline.h"
 #include "dom/textlinebase.h"
+#include "dom/timemarker.h"
 #include "dom/timesig.h"
 #include "dom/tremolo.h"
 #include "dom/tremolosinglechord.h"
@@ -207,6 +208,8 @@ void SingleLayout::layoutItem(EngravingItem* item)
     case ElementType::TEXT:         layout(toText(item), ctx);
         break;
     case ElementType::TEXTLINE:     layout(toTextLine(item), ctx);
+        break;
+    case ElementType::TIME_MARKER:  layout(toTimeMarker(item), ctx);
         break;
     case ElementType::TIMESIG:      layout(toTimeSig(item), ctx);
         break;
@@ -1425,6 +1428,11 @@ void SingleLayout::layout(Spacer* item, const Context&)
 }
 
 void SingleLayout::layout(StaffText* item, const Context& ctx)
+{
+    layoutTextBase(item, ctx, item->mutldata());
+}
+
+void SingleLayout::layout(TimeMarker* item, const Context& ctx)
 {
     layoutTextBase(item, ctx, item->mutldata());
 }

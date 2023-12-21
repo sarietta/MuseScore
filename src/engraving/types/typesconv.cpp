@@ -210,6 +210,7 @@ static const std::vector<Item<ElementType> > ELEMENT_TYPES = {
     { ElementType::TEMPO_TEXT,           "Tempo",                TranslatableString("engraving", "Tempo") },
     { ElementType::STAFF_TEXT,           "StaffText",            TranslatableString("engraving", "Staff text") },
     { ElementType::SYSTEM_TEXT,          "SystemText",           TranslatableString("engraving", "System text") },
+    { ElementType::TIME_MARKER,          "TimeMarker",           TranslatableString("engraving", "Time marker") },
     { ElementType::PLAYTECH_ANNOTATION,  "PlayTechAnnotation",   TranslatableString("engraving", "Playing technique annotation") },
     { ElementType::CAPO,                 "Capo",                 TranslatableString("engraving", "Capo") },
     { ElementType::STRING_TUNINGS,       "StringTunings",        TranslatableString("engraving", "String tunings") },
@@ -1066,6 +1067,7 @@ static const std::vector<Item<TextStyleType> > TEXTSTYLE_TYPES = {
     { TextStyleType::SYSTEM,            "system",               TranslatableString("engraving", "System") },
 
     { TextStyleType::STAFF,             "staff",                TranslatableString("engraving", "Staff") },
+    { TextStyleType::TIME_MARKER,       "time marker",          TranslatableString("engraving", "Time marker") },
     { TextStyleType::EXPRESSION,        "expression",           TranslatableString("engraving", "Expression") },
     { TextStyleType::DYNAMICS,          "dynamics",             TranslatableString("engraving", "Dynamics") },
     { TextStyleType::HAIRPIN,           "hairpin",              TranslatableString("engraving", "Hairpin") },

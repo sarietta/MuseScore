@@ -54,6 +54,11 @@ public:
         FONT_ALIGN_V_BASELINE = 3
     };
 
+  enum class TextMarkerType {
+    TEXT_MARKER_TYPE_NONE = 0,
+    TEXT_MARKER_TYPE_VERTICAL = 1
+  };
+
     enum class FrameType {
         FRAME_TYPE_NONE = 0,
         FRAME_TYPE_SQUARE,
@@ -84,6 +89,7 @@ public:
         TEXT_TYPE_REHEARSAL_MARK,
         TEXT_TYPE_SYSTEM,
         TEXT_TYPE_STAFF,
+        TEXT_TYPE_TIME_MARKER,
         TEXT_TYPE_EXPRESSION,
         TEXT_TYPE_DYNAMICS,
         TEXT_TYPE_HAIRPIN,
@@ -131,6 +137,7 @@ public:
 
     Q_ENUM(FontStyle)
     Q_ENUM(FrameType)
+    Q_ENUM(TextMarkerType)
     Q_ENUM(TextType)
     Q_ENUM(TextSubscriptMode)
 
@@ -143,6 +150,7 @@ static const QList<mu::engraving::ElementType> TEXT_ELEMENT_TYPES = {
     mu::engraving::ElementType::TEXT,
     mu::engraving::ElementType::STAFF_TEXT,
     mu::engraving::ElementType::SYSTEM_TEXT,
+    mu::engraving::ElementType::TIME_MARKER,
     mu::engraving::ElementType::TRIPLET_FEEL,
     mu::engraving::ElementType::DYNAMIC,
     mu::engraving::ElementType::EXPRESSION,

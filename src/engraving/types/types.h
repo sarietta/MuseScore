@@ -203,6 +203,7 @@ enum class ElementType {
     GUITAR_BEND_TEXT,
     TREMOLO_TWOCHORD,
     TREMOLO_SINGLECHORD,
+    TIME_MARKER,
 
     ROOT_ITEM,
     DUMMY,
@@ -729,6 +730,7 @@ enum class TextStyleType {
 
     // Staff oriented styles
     STAFF,
+    TIME_MARKER,
     EXPRESSION,
     DYNAMICS,
     HAIRPIN,

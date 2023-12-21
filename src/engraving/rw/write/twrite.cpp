@@ -143,6 +143,7 @@
 #include "dom/textline.h"
 #include "dom/textlinebase.h"
 #include "dom/tie.h"
+#include "dom/timemarker.h"
 #include "dom/timesig.h"
 #include "dom/tremolo.h"
 #include "dom/tremolosinglechord.h"
@@ -327,6 +328,8 @@ void TWrite::writeItem(const EngravingItem* item, XmlWriter& xml, WriteContext& 
     case ElementType::TEXTLINE:     write(item_cast<const TextLine*>(item), xml, ctx);
         break;
     case ElementType::TIE:          write(item_cast<const Tie*>(item), xml, ctx);
+        break;
+    case ElementType::TIME_MARKER:  write(item_cast<const TimeMarker*>(item), xml, ctx);
         break;
     case ElementType::TIMESIG:      write(item_cast<const TimeSig*>(item), xml, ctx);
         break;
@@ -2616,6 +2619,18 @@ void TWrite::write(const StaffState* item, XmlWriter& xml, WriteContext& ctx)
 void TWrite::write(const StaffText* item, XmlWriter& xml, WriteContext& ctx)
 {
     write(static_cast<const StaffTextBase*>(item), xml, ctx);
+}
+
+void TWrite::write(const TimeMarker* item, XmlWriter& xml, WriteContext& ctx)
+{
+    if (!ctx.canWrite(item)) {
+        return;
+    }
+    xml.startElement(item);
+    xml.tag("TimeMarker", { { "locationSeconds", item->locationInSeconds() } });
+    writeProperties(static_cast<const TextBase*>(item), xml, ctx, true);
+
+    xml.endElement();
 }
 
 void TWrite::write(const StaffTextBase* item, XmlWriter& xml, WriteContext& ctx)

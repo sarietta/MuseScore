@@ -100,6 +100,28 @@ void setTempoToScore(Score* score, int tick, double beatsPerSecond)
     }
 }
 
+void setMarkerToScore(Score* score, const int& tick, const QString& markerText) {
+  Measure* measure = score->tick2measure(Fraction::fromTicks(tick));
+  if (!measure) {
+    LOGD("MidiTempo::setTempoToScore: no measure for tick %d", tick);
+    return;
+  }
+
+  Segment* segment = measure->getSegment(SegmentType::ChordRest, Fraction::fromTicks(tick));
+  if (!segment) {
+    LOGD("MidiTempo::setTempoToScore: no chord/rest segment for tempo at %d", tick);
+    return;
+  }
+
+  const std::pair<int, float> barbeat = segment->barbeat();
+
+  StaffText* staffText = mu::engraving::Factory::createStaffText(segment);
+  staffText->setXmlText(QString("%1\n%2:%3")
+                            .arg(markerText).arg(barbeat.first).arg(barbeat.second));
+  staffText->setTrack(0);
+  segment->add(staffText);
+}
+
 double roundToBpm(double beatsPerSecond)
 {
     return qRound(beatsPerSecond * 60.0) / 60.0;
@@ -116,12 +138,18 @@ void applyAllTempoEvents(const std::multimap<int, MTrack>& tracks, Score* score)
             for (const auto& ie : track.second.mtrack->events()) {
                 const MidiEvent& e = ie.second;
                 if (e.type() == ME_META && e.metaType() == META_TEMPO) {
-                    const auto tick = toMuseScoreTicks(
+                  const auto tick = toMuseScoreTicks(
                         ie.first, track.second.division, false);
                     const uchar* data = (uchar*)e.edata();
                     const unsigned tempo = data[2] + (data[1] << 8) + (data[0] << 16);
                     const double beatsPerSecond = roundToBpm(1000000.0 / tempo);
                     setTempoToScore(score, tick.ticks(), beatsPerSecond);
+                } else if (e.type() == ME_META && e.metaType() == META_MARKER) {
+                  const auto tick = toMuseScoreTicks(
+                      ie.first, track.second.division, false);
+                  const char* data = (char*)e.edata();
+                  const QString markerText = QString::fromUtf8(data);
+                  setMarkerToScore(score, tick.ticks(), markerText);
                 }
             }
         }

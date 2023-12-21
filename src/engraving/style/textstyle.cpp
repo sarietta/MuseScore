@@ -503,6 +503,23 @@ const TextStyle staffTextStyle { {
     { TextStylePropertyType::FrameFillColor,       Sid::staffTextFrameBgColor,                  Pid::FRAME_BG_COLOR },
 } };
 
+const TextStyle timeMarkerStyle { {
+    { TextStylePropertyType::FontFace,             Sid::timeMarkerFontFace,                      Pid::FONT_FACE },
+    { TextStylePropertyType::FontSize,             Sid::timeMarkerFontSize,                      Pid::FONT_SIZE },
+    { TextStylePropertyType::LineSpacing,          Sid::timeMarkerLineSpacing,                   Pid::TEXT_LINE_SPACING },
+    { TextStylePropertyType::SizeSpatiumDependent, Sid::timeMarkerFontSpatiumDependent,          Pid::SIZE_SPATIUM_DEPENDENT },
+    { TextStylePropertyType::FontStyle,            Sid::timeMarkerFontStyle,                     Pid::FONT_STYLE },
+    { TextStylePropertyType::Color,                Sid::timeMarkerColor,                         Pid::COLOR },
+    { TextStylePropertyType::TextAlign,            Sid::timeMarkerAlign,                         Pid::ALIGN },
+    { TextStylePropertyType::Offset,               Sid::timeMarkerPosAbove,                      Pid::OFFSET },
+    { TextStylePropertyType::FrameType,            Sid::timeMarkerFrameType,                     Pid::FRAME_TYPE },
+    { TextStylePropertyType::FramePadding,         Sid::timeMarkerFramePadding,                  Pid::FRAME_PADDING },
+    { TextStylePropertyType::FrameWidth,           Sid::timeMarkerFrameWidth,                    Pid::FRAME_WIDTH },
+    { TextStylePropertyType::FrameRound,           Sid::timeMarkerFrameRound,                    Pid::FRAME_ROUND },
+    { TextStylePropertyType::FrameBorderColor,     Sid::timeMarkerFrameFgColor,                  Pid::FRAME_FG_COLOR },
+    { TextStylePropertyType::FrameFillColor,       Sid::timeMarkerFrameBgColor,                  Pid::FRAME_BG_COLOR },
+} };
+
 const TextStyle chordSymbolTextStyleA { {
     { TextStylePropertyType::FontFace,             Sid::chordSymbolAFontFace,                   Pid::FONT_FACE },
     { TextStylePropertyType::FontSize,             Sid::chordSymbolAFontSize,                   Pid::FONT_SIZE },
@@ -1094,6 +1111,7 @@ const TextStyle* textStyle(TextStyleType idx)
     case TextStyleType::SYSTEM: return &systemTextStyle;
 
     case TextStyleType::STAFF: return &staffTextStyle;
+    case TextStyleType::TIME_MARKER: return &timeMarkerStyle;
     case TextStyleType::EXPRESSION: return &expressionTextStyle;
     case TextStyleType::DYNAMICS: return &dynamicsTextStyle;
     case TextStyleType::HAIRPIN: return &hairpinTextStyle;
@@ -1165,6 +1183,7 @@ static const std::vector<TextStyleType> _primaryTextStyles = {
     TextStyleType::REHEARSAL_MARK,
     TextStyleType::SYSTEM,
     TextStyleType::STAFF,
+    TextStyleType::TIME_MARKER,
     TextStyleType::EXPRESSION,
     TextStyleType::DYNAMICS,
     TextStyleType::HAIRPIN,

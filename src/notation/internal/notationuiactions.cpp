@@ -1245,6 +1245,12 @@ const UiActionList NotationUiActions::m_actions = {
              TranslatableString("action", "St&aff text"),
              TranslatableString("action", "Add text: staff text")
              ),
+    UiAction("time-marker",
+             mu::context::UiCtxNotationOpened,
+             mu::context::CTX_ANY,
+             TranslatableString("action", "Ti&me marker"),
+             TranslatableString("action", "Add text: time marker")
+             ),
     UiAction("expression-text",
              mu::context::UiCtxNotationOpened,
              mu::context::CTX_ANY,

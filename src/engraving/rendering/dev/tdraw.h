@@ -149,6 +149,7 @@ class TextLineSegment;
 class TextLineBase;
 class TextLineBaseSegment;
 class Tie;
+class TimeMarker;
 class TimeSig;
 class TremoloSingleChord;
 class TremoloTwoChord;
@@ -285,6 +286,7 @@ private:
     static void draw(const Text* item, draw::Painter* painter);
     static void draw(const TextLineSegment* item, draw::Painter* painter);
     static void draw(const TieSegment* item, draw::Painter* painter);
+    static void draw(const TimeMarker* item, draw::Painter* painter);
     static void draw(const TimeSig* item, draw::Painter* painter);
     static void draw(const TremoloSingleChord* item, draw::Painter* painter);
     static void draw(const TremoloTwoChord* item, draw::Painter* painter);

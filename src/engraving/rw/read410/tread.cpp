@@ -125,6 +125,7 @@
 #include "../../dom/stafftypechange.h"
 #include "../../dom/stringtunings.h"
 #include "../../dom/system.h"
+#include "../../dom/timemarker.h"
 #include "../../dom/textline.h"
 #include "../../dom/trill.h"
 #include "../../dom/vibrato.h"
@@ -166,7 +167,7 @@ using ReadTypes = rtti::TypeList<Accidental, ActionIcon, Ambitus, Arpeggio, Arti
                                  Ornament, Ottava,
                                  Segment, Slur, Spacer, StaffState, StaffText, StaffTypeChange, Stem, StemSlash, Sticking, StringTunings,
                                  Symbol, FSymbol, System, SystemDivider, SystemText,
-                                 TempoText, Text, TextLine, Tie, TimeSig, TremoloDispatcher, TremoloBar, Trill, Tuplet,
+                                 TempoText, Text, TextLine, Tie, TimeMarker, TimeSig, TremoloDispatcher, TremoloBar, Trill, Tuplet,
                                  Vibrato, Volta,
                                  WhammyBar>;
 
@@ -695,6 +696,30 @@ void TRead::read(TempoText* t, XmlReader& e, ReadContext& ctx)
 void TRead::read(StaffText* t, XmlReader& xml, ReadContext& ctx)
 {
     read(static_cast<StaffTextBase*>(t), xml, ctx);
+}
+
+void TRead::read(TimeMarker* t, XmlReader& xml, ReadContext& ctx)
+{
+    while (xml.readNextStartElement()) {
+        if (!readProperties(t, xml, ctx)) {
+            xml.unknown();
+        }
+    }
+}
+
+bool TRead::readProperties(TimeMarker* t, XmlReader& e, ReadContext& ctx)
+{
+    const AsciiStringView tag(e.name());
+
+    if (tag == "TimeMarker") {
+      double locationSeconds = e.doubleAttribute("locationSeconds", 0);
+      t->setTimeLocation(locationSeconds);
+      t->needsStaffLocationUpdate();
+      e.readNext();
+    } else if (!readProperties(static_cast<TextBase*>(t), e, ctx)) {
+        return false;
+    }
+    return true;
 }
 
 void TRead::read(StaffTextBase* t, XmlReader& xml, ReadContext& ctx)

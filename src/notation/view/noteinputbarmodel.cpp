@@ -728,6 +728,7 @@ MenuItemList NoteInputBarModel::makeTextItems()
         makeSeparator(),
         makeMenuItem("system-text"),
         makeMenuItem("staff-text"),
+        makeMenuItem("time-marker"),
         makeMenuItem("expression-text"),
         makeMenuItem("rehearsalmark-text"),
         makeMenuItem("instrument-change-text"),

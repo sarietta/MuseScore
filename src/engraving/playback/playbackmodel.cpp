@@ -507,6 +507,7 @@ bool PlaybackModel::hasToReloadTracks(const ScoreChangesRange& changesRange) con
         ElementType::HAIRPIN_SEGMENT,
         ElementType::HARMONY,
         ElementType::STAFF_TEXT,
+        ElementType::TIME_MARKER,
         ElementType::MEASURE_REPEAT,
         ElementType::GUITAR_BEND,
         ElementType::GUITAR_BEND_SEGMENT,

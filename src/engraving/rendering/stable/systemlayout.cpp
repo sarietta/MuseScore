@@ -1148,6 +1148,18 @@ void SystemLayout::layoutSystemElements(System* system, LayoutContext& ctx)
     }
 
     //-------------------------------------------------------------
+    // TimeMarker
+    //-------------------------------------------------------------
+
+    for (const Segment* s : sl) {
+        for (EngravingItem* e : s->annotations()) {
+            if (e->isTimeMarker()) {
+                TLayout::layoutItem(e, ctx);
+            }
+        }
+    }
+
+    //-------------------------------------------------------------
     // InstrumentChange
     //-------------------------------------------------------------
 

@@ -61,7 +61,7 @@ Column {
             text: qsTrc("inspector", "Match staff size")
             propertyItem: root.model ? root.model.isSizeSpatiumDependent : null
         }
-
+      
         RadioButtonGroup {
             id: subscriptOptionsButtonList
 
@@ -99,6 +99,18 @@ Column {
         }
     }
 
+  FlatRadioButtonGroupPropertyView {
+    id: textMarketTypeSection1
+    titleText: qsTrc("inspector", "Marker Type")
+
+    propertyItem: root.model && root.model.textMarkerType ? root.model.textMarkerType : null
+    
+    model: [
+      { text: qsTrc("inspector", "None"), value: TextTypes.TEXT_MARKER_TYPE_NONE, titleRole: qsTrc("inspector", "None") },
+      { text: qsTrc("inspector", "Vertical"), value: TextTypes.TEXT_MARKER_TYPE_VERTICAL, titleRole: qsTrc("inspector", "Vertical") },
+    ]
+  }
+  
     FrameSettings {
         id: frameSettings
         visible: root.model ? !root.model.isDynamicSpecificSettings : false
@@ -114,7 +126,7 @@ Column {
         frameMargin: root.model ? root.model.frameMargin : null
         frameCornerRadius: root.model ? root.model.frameCornerRadius : null
     }
-
+  
     SeparatorLine { anchors.margins: -12 }
 
     SpinBoxPropertyView {
