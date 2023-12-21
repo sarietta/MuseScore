@@ -747,6 +747,7 @@ bool EngravingObject::isTextBase() const
            || type() == ElementType::JUMP
            || type() == ElementType::STAFF_TEXT
            || type() == ElementType::SYSTEM_TEXT
+           || type() == ElementType::TIME_MARKER
            || type() == ElementType::TRIPLET_FEEL
            || type() == ElementType::PLAYTECH_ANNOTATION
            || type() == ElementType::CAPO

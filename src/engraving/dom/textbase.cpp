@@ -47,6 +47,7 @@
 #include "measure.h"
 #include "mscore.h"
 #include "page.h"
+#include "repeatlist.h"
 #include "score.h"
 #include "textedit.h"
 #include "undo.h"
@@ -2694,40 +2695,42 @@ bool TextBase::isUnlinkedFromMaster() const
 
 PropertyValue TextBase::getProperty(Pid propertyId) const
 {
-    switch (propertyId) {
+  switch (propertyId) {
     case Pid::TEXT_STYLE:
-        return textStyleType();
+      return textStyleType();
     case Pid::FONT_FACE:
-        return m_cursor->selectedFragmentsFormat().fontFamily();
+      return m_cursor->selectedFragmentsFormat().fontFamily();
     case Pid::FONT_SIZE:
-        return m_cursor->selectedFragmentsFormat().fontSize();
+      return m_cursor->selectedFragmentsFormat().fontSize();
     case Pid::FONT_STYLE:
-        return static_cast<int>(m_cursor->selectedFragmentsFormat().style());
+      return static_cast<int>(m_cursor->selectedFragmentsFormat().style());
     case Pid::TEXT_LINE_SPACING:
-        return textLineSpacing();
+      return textLineSpacing();
+    case Pid::TEXT_MARKER_TYPE:
+      return static_cast<int>(textMarkerType());
     case Pid::FRAME_TYPE:
-        return static_cast<int>(frameType());
+      return static_cast<int>(frameType());
     case Pid::FRAME_WIDTH:
-        return frameWidth();
+      return frameWidth();
     case Pid::FRAME_PADDING:
-        return paddingWidth();
+      return paddingWidth();
     case Pid::FRAME_ROUND:
-        return frameRound();
+      return frameRound();
     case Pid::FRAME_FG_COLOR:
-        return PropertyValue::fromValue(frameColor());
+      return PropertyValue::fromValue(frameColor());
     case Pid::FRAME_BG_COLOR:
-        return PropertyValue::fromValue(bgColor());
+      return PropertyValue::fromValue(bgColor());
     case Pid::ALIGN:
-        return PropertyValue::fromValue(align());
+      return PropertyValue::fromValue(align());
     case Pid::TEXT_SCRIPT_ALIGN:
-        return static_cast<int>(m_cursor->selectedFragmentsFormat().valign());
+      return static_cast<int>(m_cursor->selectedFragmentsFormat().valign());
     case Pid::TEXT:
-        return xmlText();
+      return xmlText();
     case Pid::TEXT_LINKED_TO_MASTER:
-        return isTextLinkedToMaster();
+      return isTextLinkedToMaster();
     default:
-        return EngravingItem::getProperty(propertyId);
-    }
+      return EngravingItem::getProperty(propertyId);
+  }
 }
 
 //---------------------------------------------------------
@@ -2739,61 +2742,63 @@ bool TextBase::setProperty(Pid pid, const PropertyValue& v)
     if (m_textInvalid) {
         genText();
     }
-
     bool rv = true;
     switch (pid) {
-    case Pid::TEXT_STYLE:
+      case Pid::TEXT_STYLE:
         initTextStyleType(v.value<TextStyleType>());
         break;
-    case Pid::FONT_FACE:
+      case Pid::FONT_FACE:
         setFamily(v.value<String>());
         break;
-    case Pid::FONT_SIZE:
+      case Pid::FONT_SIZE:
         setSize(v.toReal());
         break;
-    case Pid::FONT_STYLE:
+      case Pid::FONT_STYLE:
         setFontStyle(FontStyle(v.toInt()));
         break;
-    case Pid::TEXT_LINE_SPACING:
+      case Pid::TEXT_LINE_SPACING:
         setTextLineSpacing(v.toReal());
         break;
-    case Pid::FRAME_TYPE:
+      case Pid::TEXT_MARKER_TYPE:
+        setTextMarkerType(TextMarkerType(v.toInt()));
+        break;
+      case Pid::FRAME_TYPE:
         setFrameType(FrameType(v.toInt()));
         break;
-    case Pid::FRAME_WIDTH:
+      case Pid::FRAME_WIDTH:
         setFrameWidth(v.value<Spatium>());
         break;
-    case Pid::FRAME_PADDING:
+      case Pid::FRAME_PADDING:
         setPaddingWidth(v.value<Spatium>());
         break;
-    case Pid::FRAME_ROUND:
+      case Pid::FRAME_ROUND:
         setFrameRound(v.toInt());
         break;
-    case Pid::FRAME_FG_COLOR:
+      case Pid::FRAME_FG_COLOR:
         setFrameColor(v.value<mu::draw::Color>());
         break;
-    case Pid::FRAME_BG_COLOR:
+      case Pid::FRAME_BG_COLOR:
         setBgColor(v.value<mu::draw::Color>());
         break;
-    case Pid::TEXT:
+      case Pid::TEXT:
         setXmlText(v.value<String>());
         break;
-    case Pid::ALIGN:
+      case Pid::ALIGN:
         setAlign(v.value<Align>());
         break;
-    case Pid::TEXT_SCRIPT_ALIGN:
+      case Pid::TEXT_SCRIPT_ALIGN:
         m_cursor->setFormat(FormatId::Valign, v.toInt());
         break;
-    case Pid::TEXT_LINKED_TO_MASTER:
+      case Pid::TEXT_LINKED_TO_MASTER:
         if (isTextLinkedToMaster() == v.toBool()) {
-            break;
+          break;
         }
         if (!isTextLinkedToMaster()) {
-            relinkPropertiesToMaster(PropertyGroup::TEXT);
+          relinkPropertiesToMaster(PropertyGroup::TEXT);
         }
         setTextLinkedToMaster(v.toBool());
         break;
-    default:
+      default:
         rv = EngravingItem::setProperty(pid, v);
         break;
     }

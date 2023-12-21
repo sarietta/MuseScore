@@ -336,6 +336,8 @@ set(DOM_SRC
     ${CMAKE_CURRENT_LIST_DIR}/tie.h
     ${CMAKE_CURRENT_LIST_DIR}/tiemap.h
     ${CMAKE_CURRENT_LIST_DIR}/timesig.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/timemarker.h
+    ${CMAKE_CURRENT_LIST_DIR}/timemarker.cpp
     ${CMAKE_CURRENT_LIST_DIR}/timesig.h
     ${CMAKE_CURRENT_LIST_DIR}/transpose.cpp
     ${CMAKE_CURRENT_LIST_DIR}/tremolo.cpp

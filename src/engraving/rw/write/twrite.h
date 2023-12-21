@@ -156,6 +156,7 @@ class TextBase;
 class TextLine;
 class TextLineBase;
 class Tie;
+class TimeMarker;
 class TimeSig;
 class TremoloSingleChord;
 class TremoloTwoChord;
@@ -274,6 +275,7 @@ public:
     static void write(const StaffNameList* item, XmlWriter& xml, const char* name);
     static void write(const StaffState* item, XmlWriter& xml, WriteContext& ctx);
     static void write(const StaffText* item, XmlWriter& xml, WriteContext& ctx);
+    static void write(const TimeMarker* item, XmlWriter& xml, WriteContext& ctx);
     static void write(const StaffType* item, XmlWriter& xml, WriteContext& ctx);
     static void write(const StaffTypeChange* item, XmlWriter& xml, WriteContext& ctx);
     static void write(const Stem* item, XmlWriter& xml, WriteContext& ctx);

@@ -137,6 +137,7 @@ static const std::unordered_set<ElementType> BREAK_TYPES {
     ElementType::REHEARSAL_MARK,
     ElementType::HARMONY,
     ElementType::STAFF_TEXT,
+    ElementType::TIME_MARKER,
     ElementType::EXPRESSION,
     ElementType::SYSTEM_TEXT,
     ElementType::TRIPLET_FEEL,
@@ -155,6 +156,7 @@ static const std::unordered_set<ElementType> ALWAYS_BREAK_TYPES {
 static const std::unordered_set<ElementType> CONDITIONAL_BREAK_TYPES {
     ElementType::HARMONY,
     ElementType::STAFF_TEXT,
+    ElementType::TIME_MARKER,
     ElementType::EXPRESSION,
     ElementType::SYSTEM_TEXT,
     ElementType::TRIPLET_FEEL,

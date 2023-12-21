@@ -47,6 +47,7 @@
 #include "../dom/stafflines.h"
 #include "../dom/stafftext.h"
 #include "../dom/systemdivider.h"
+#include "../dom/timemarker.h"
 #include "../dom/timesig.h"
 #include "../dom/tuplet.h"
 #include "../dom/harmony.h"
@@ -511,6 +512,17 @@ void MeasureRead::readVoice(Measure* measure, XmlReader& e, ReadContext& ctx, in
             // for symbols attached to anything but a measure
             segment = measure->getSegment(SegmentType::ChordRest, ctx.tick());
             StaffText* el = Factory::createStaffText(segment);
+            el->setTrack(ctx.track());
+            TRead::read(el, e, ctx);
+            if (el->systemFlag() && el->isTopSystemObject()) {
+                el->setTrack(0);     // original system object always goes on top
+            }
+            segment->add(el);
+        } else if (tag == "TimeMarker") {
+            // hack - getSegment needed because tick tags are unreliable in 1.3 scores
+            // for symbols attached to anything but a measure
+            segment = measure->getSegment(SegmentType::ChordRest, ctx.tick());
+            TimeMarker* el = Factory::createTimeMarker(segment, segment);
             el->setTrack(ctx.track());
             TRead::read(el, e, ctx);
             if (el->systemFlag() && el->isTopSystemObject()) {

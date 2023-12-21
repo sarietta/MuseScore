@@ -84,6 +84,7 @@ static const QStringList ALL_PAGE_CODES {
     "articulations-and-ornaments",
     "fermatas",
     "staff-text",
+    "time-marker",
     "tempo-text",
     "lyrics",
     "expression",
@@ -118,6 +119,7 @@ static const QStringList ALL_TEXT_STYLE_SUBPAGE_CODES {
     "rehearsal-mark",
     "system",
     "staff",
+    "time-marker",
     "expression",
     "dynamics",
     "hairpin",
@@ -589,6 +591,11 @@ EditStyle::EditStyle(QWidget* parent)
         { StyleId::staffTextPosBelow,       false, staffTextPosBelow,     resetStaffTextPosBelow },
         { StyleId::staffTextMinDistance,    false, staffTextMinDistance,  resetStaffTextMinDistance },
 
+        { StyleId::timeMarkerPlacement,      false, timeMarkerPlacement,    resetTimeMarkerPlacement },
+        { StyleId::timeMarkerPosAbove,       false, timeMarkerPosAbove,     resetTimeMarkerPosAbove },
+        { StyleId::timeMarkerPosBelow,       false, timeMarkerPosBelow,     resetTimeMarkerPosBelow },
+        { StyleId::timeMarkerMinDistance,    false, timeMarkerMinDistance,  resetTimeMarkerMinDistance },
+
         { StyleId::guitarBendLineWidth,     false, bendLineWidth,     resetBendLineWidth },
         { StyleId::guitarBendLineWidthTab,  false, bendLineWidthTab,  resetBendLineWidthTab },
         { StyleId::guitarBendArrowWidth,    false, bendArrowWidth,    resetBendArrowWidth },
@@ -681,6 +688,7 @@ EditStyle::EditStyle(QWidget* parent)
         dynamicsPlacement,
         tempoTextPlacement,
         staffTextPlacement,
+        timeMarkerPlacement,
         rehearsalMarkPlacement,
         measureNumberVPlacement,
         mmRestRangeVPlacement
@@ -1442,6 +1450,8 @@ QString EditStyle::pageCodeForElement(const EngravingItem* element)
     case ElementType::PLAYTECH_ANNOTATION:
     case ElementType::STAFF_TEXT:
         return "staff-text";
+    case ElementType::TIME_MARKER:
+        return "time-marker";
 
     case ElementType::TEMPO_TEXT:
         return "tempo-text";

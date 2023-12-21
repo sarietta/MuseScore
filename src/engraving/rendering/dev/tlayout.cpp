@@ -136,6 +136,7 @@
 #include "dom/text.h"
 #include "dom/textline.h"
 #include "dom/tie.h"
+#include "dom/timemarker.h"
 #include "dom/timesig.h"
 #include "dom/tremolo.h"
 #include "dom/tremolosinglechord.h"
@@ -368,6 +369,9 @@ void TLayout::layoutItem(EngravingItem* item, LayoutContext& ctx)
         break;
     case ElementType::STAFF_TEXT:
         layoutStaffText(item_cast<const StaffText*>(item), static_cast<StaffText::LayoutData*>(ldata));
+        break;
+    case ElementType::TIME_MARKER:
+        layoutTimeMarker(item_cast<const TimeMarker*>(item), static_cast<TimeMarker::LayoutData*>(ldata));
         break;
     case ElementType::STAFFTYPE_CHANGE:
         layoutStaffTypeChange(item_cast<const StaffTypeChange*>(item), static_cast<StaffTypeChange::LayoutData*>(ldata), ctx.conf());
@@ -5005,6 +5009,21 @@ void TLayout::layoutStaffState(const StaffState* item, StaffState::LayoutData* l
 }
 
 void TLayout::layoutStaffText(const StaffText* item, StaffText::LayoutData* ldata)
+{
+    layoutBaseTextBase(item, ldata);
+
+    if (item->autoplace()) {
+        const Segment* s = toSegment(item->explicitParent());
+        const Measure* m = s->measure();
+        LD_CONDITION(ldata->isSetPos());
+        LD_CONDITION(m->ldata()->isSetPos());
+        LD_CONDITION(s->ldata()->isSetPos());
+    }
+
+    Autoplace::autoplaceSegmentElement(item, ldata);
+}
+
+void TLayout::layoutTimeMarker(const TimeMarker* item, TimeMarker::LayoutData* ldata)
 {
     layoutBaseTextBase(item, ldata);
 

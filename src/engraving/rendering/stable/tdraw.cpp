@@ -131,6 +131,7 @@
 #include "dom/textline.h"
 #include "dom/textlinebase.h"
 #include "dom/tie.h"
+#include "dom/timemarker.h"
 #include "dom/timesig.h"
 #include "dom/tremolo.h"
 #include "dom/tremolobar.h"
@@ -344,6 +345,8 @@ void TDraw::drawItem(const EngravingItem* item, draw::Painter* painter)
     case ElementType::TEXTLINE_SEGMENT:     draw(item_cast<const TextLineSegment*>(item), painter);
         break;
     case ElementType::TIE_SEGMENT:          draw(item_cast<const TieSegment*>(item), painter);
+        break;
+    case ElementType::TIME_MARKER:          draw(item_cast<const TimeMarker*>(item), painter);
         break;
     case ElementType::TIMESIG:              draw(item_cast<const TimeSig*>(item), painter);
         break;
@@ -2607,6 +2610,12 @@ void TDraw::draw(const StaffState* item, Painter* painter)
 }
 
 void TDraw::draw(const StaffText* item, Painter* painter)
+{
+    TRACE_DRAW_ITEM;
+    drawTextBase(item, painter);
+}
+
+void TDraw::draw(const TimeMarker* item, Painter* painter)
 {
     TRACE_DRAW_ITEM;
     drawTextBase(item, painter);

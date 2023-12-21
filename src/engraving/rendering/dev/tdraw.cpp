@@ -131,6 +131,7 @@
 #include "dom/textline.h"
 #include "dom/textlinebase.h"
 #include "dom/tie.h"
+#include "dom/timemarker.h"
 #include "dom/timesig.h"
 #include "dom/tremolo.h"
 #include "dom/tremolosinglechord.h"
@@ -323,6 +324,8 @@ void TDraw::drawItem(const EngravingItem* item, draw::Painter* painter)
     case ElementType::STAFF_STATE:          draw(item_cast<const StaffState*>(item), painter);
         break;
     case ElementType::STAFF_TEXT:           draw(item_cast<const StaffText*>(item), painter);
+        break;
+    case ElementType::TIME_MARKER:          draw(item_cast<const TimeMarker*>(item), painter);
         break;
     case ElementType::STAFFTYPE_CHANGE:     draw(item_cast<const StaffTypeChange*>(item), painter);
         break;
@@ -1660,6 +1663,67 @@ void TDraw::drawTextBase(const TextBase* item, Painter* painter)
             painter->drawRoundedRect(ldata->frame, item->frameRound() * frameRoundFactor, r2);
         }
     }
+
+    if (item->hasMarker()) {
+      std::vector<LineF> anchorLines = item->dragAnchorLines();
+
+      PointF itemPosition(item->pagePos());
+      painter->translate(-itemPosition);
+
+        Color bg(item->bgColor());
+        painter->setBrush(bg.alpha() ? Brush(bg) : BrushStyle::NoBrush);
+        painter->setPen(Pen(item->textColor(), 3, PenStyle::DashLine));
+        const float noteHeadWidth = item->score()->noteHeadWidth();
+        const float nhw2 = noteHeadWidth / 2.0;
+
+        // The farthest anchor point is the one attached to the staff.
+        auto distanceSquared = [itemPosition](PointF p) {
+          const PointF vector = itemPosition - p;
+          return PointF::dotProduct(vector, vector);
+        };
+
+        PointF farthestAnchorPoint(anchorLines[0].p1());
+        float maxDistance = distanceSquared(anchorLines[0].p1());
+        for (const LineF anchorLine : anchorLines) {
+          const float d1 = distanceSquared(anchorLine.p1());
+          const float d2 = distanceSquared(anchorLine.p2());
+          if (d1 > maxDistance) {
+            farthestAnchorPoint = anchorLine.p1();
+            maxDistance = d1;
+          }
+          if (d2 > maxDistance) {
+            farthestAnchorPoint = anchorLine.p2();
+            maxDistance = d2;
+          }
+
+          painter->drawLine(anchorLine.x1() + nhw2, anchorLine.y1(),
+                            anchorLine.x2() + nhw2, anchorLine.y2());
+        }
+
+        // painter->drawLine(farthestAnchorPoint.x(), farthestAnchorPoint.y(),
+        //                   farthestAnchorPoint.x(), farthestAnchorPoint.y() + 300);
+
+        // Should always be true.
+        EngravingObject* parent = item->explicitParent();
+        if (parent->isSegment() || parent->isMeasure()) {
+          Measure* measure = parent->isSegment() ? toSegment(parent)->measure() : toMeasure(parent);
+          System* system = measure->system();
+          if (system->staves().size() > 0) {
+            float minY = system->staff(0)->y();
+            float maxY = 0;
+            for (const SysStaff* staff : system->staves()) {
+              minY = staff->y() < minY ? staff->y() : minY;
+              maxY = staff->y() + system->y() + staff->yBottom() > maxY ? staff->y() + system->y() + staff->yBottom() : maxY;
+            }
+
+            painter->drawLine(farthestAnchorPoint.x() + nhw2, minY,
+                              farthestAnchorPoint.x() + nhw2, maxY);
+          }
+        }
+
+        painter->translate(itemPosition);
+    }
+
     painter->setBrush(BrushStyle::NoBrush);
     painter->setPen(item->textColor());
     for (const TextBlock& t : ldata->blocks) {
@@ -2642,6 +2706,17 @@ void TDraw::draw(const StaffText* item, Painter* painter)
 {
     TRACE_DRAW_ITEM;
     drawTextBase(item, painter);
+}
+
+void TDraw::draw(const TimeMarker* item, Painter* painter)
+{
+    TRACE_DRAW_ITEM;
+    item->updateStaffLocationIfNeeded();
+    drawTextBase(item, painter);
+
+    Color bg(item->bgColor());
+    painter->setBrush(bg.alpha() ? Brush(bg) : BrushStyle::NoBrush);
+    painter->drawText(PointF(0., 50.), String::number(item->locationInSeconds()));
 }
 
 void TDraw::draw(const StaffTypeChange* item, Painter* painter)

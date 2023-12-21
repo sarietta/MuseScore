@@ -22,7 +22,13 @@
 
 #include "stafftext.h"
 
+#include "draw/types/pen.h"
+#include "draw/types/brush.h"
+
+#include "log.h"
+
 using namespace mu;
+using mu::draw::Pen;
 
 namespace mu::engraving {
 //---------------------------------------------------------
@@ -51,10 +57,11 @@ StaffText::StaffText(Segment* parent, TextStyleType tid)
 engraving::PropertyValue StaffText::propertyDefault(Pid id) const
 {
     switch (id) {
-    case Pid::TEXT_STYLE:
+      case Pid::TEXT_STYLE:
         return TextStyleType::STAFF;
-    default:
+      default:
         return StaffTextBase::propertyDefault(id);
     }
 }
+
 }

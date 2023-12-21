@@ -161,6 +161,8 @@ public:
 
     static StaffText* createStaffText(Segment* parent, TextStyleType textStyleType = TextStyleType::STAFF, bool isAccessibleEnabled = true);
 
+    static TimeMarker* createTimeMarker(EngravingItem* destination, Segment * parent, TextStyleType textStyleType = TextStyleType::TIME_MARKER, bool isAccessibleEnabled = true);
+
     static Expression* createExpression(Segment* parent, bool isAccessibleEnabled = true);
 
     static RehearsalMark* createRehearsalMark(Segment* parent, bool isAccessibleEnabled = true);

@@ -96,6 +96,7 @@
 #include "../../dom/textbase.h"
 #include "../../dom/tempotext.h"
 #include "../../dom/text.h"
+#include "../../dom/timemarker.h"
 #include "../../dom/timesig.h"
 #include "../../dom/tremolobar.h"
 #include "../../dom/tripletfeel.h"
@@ -301,6 +302,7 @@ public:
     static void layoutForWidth(StaffLines* item, double w, LayoutContext& ctx);
     static void layoutStaffState(const StaffState* item, StaffState::LayoutData* ldata);
     static void layoutStaffText(const StaffText* item, StaffText::LayoutData* ldata);
+    static void layoutTimeMarker(const TimeMarker* item, TimeMarker::LayoutData* ldata);
     static void layoutStaffTypeChange(const StaffTypeChange* item, StaffTypeChange::LayoutData* ldata, const LayoutConfiguration& conf);
     static void layoutStem(const Stem* item, Stem::LayoutData* ldata, const LayoutConfiguration& conf);
     static void layoutStemSlash(const StemSlash* item, StemSlash::LayoutData* ldata, const LayoutConfiguration& conf);

@@ -40,6 +40,14 @@ class TextBase;
 class TextBlock;
 
 //---------------------------------------------------------
+//   TextMarkerType
+//---------------------------------------------------------
+
+enum class TextMarkerType : char {
+  NO_MARKER, VERTICAL_MARKER
+};
+
+//---------------------------------------------------------
 //   FrameType
 //---------------------------------------------------------
 
@@ -289,7 +297,6 @@ class TextBase : public EngravingItem
     OBJECT_ALLOCATOR(engraving, TextBase)
 
     INJECT(IEngravingFontsProvider, engravingFonts)
-
     M_PROPERTY2(bool, isTextLinkedToMaster, setTextLinkedToMaster, true)
 
 public:
@@ -396,6 +403,7 @@ public:
     bool isTextInvalid() const { return m_textInvalid; }
 
     // helper functions
+    virtual bool hasMarker() const { return m_textMarkerType != TextMarkerType::NO_MARKER; }
     bool hasFrame() const { return m_frameType != FrameType::NO_FRAME; }
     bool circle() const { return m_frameType == FrameType::CIRCLE; }
     bool square() const { return m_frameType == FrameType::SQUARE; }
@@ -433,6 +441,8 @@ public:
     mu::draw::Color textColor() const;
     FrameType frameType() const { return m_frameType; }
     void setFrameType(FrameType val) { m_frameType = val; }
+    TextMarkerType textMarkerType() const { return m_textMarkerType; }
+    void setTextMarkerType(TextMarkerType val) { m_textMarkerType = val; }
     double textLineSpacing() const { return m_textLineSpacing; }
     void setTextLineSpacing(double val) { m_textLineSpacing = val; }
     mu::draw::Color bgColor() const { return m_bgColor; }
@@ -505,6 +515,7 @@ private:
     Align m_align;
 
     FrameType m_frameType = FrameType::NO_FRAME;
+    TextMarkerType m_textMarkerType = TextMarkerType::NO_MARKER;
     double m_textLineSpacing = 1.0;
     mu::draw::Color m_bgColor;
     mu::draw::Color m_frameColor;

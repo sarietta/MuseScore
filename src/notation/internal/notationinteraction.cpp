@@ -1234,56 +1234,57 @@ bool NotationInteraction::isDropAccepted(const PointF& pos, Qt::KeyboardModifier
     case ElementType::HAIRPIN:
     case ElementType::TEXTLINE:
         return dragTimeAnchorElement(pos);
-    case ElementType::IMAGE:
-    case ElementType::SYMBOL:
-    case ElementType::FSYMBOL:
-    case ElementType::DYNAMIC:
-    case ElementType::KEYSIG:
-    case ElementType::CLEF:
-    case ElementType::TIMESIG:
-    case ElementType::BAR_LINE:
-    case ElementType::ARPEGGIO:
-    case ElementType::BREATH:
-    case ElementType::GLISSANDO:
-    case ElementType::MEASURE_NUMBER:
-    case ElementType::BRACKET:
-    case ElementType::ARTICULATION:
-    case ElementType::FERMATA:
-    case ElementType::CHORDLINE:
-    case ElementType::BEND:
     case ElementType::ACCIDENTAL:
-    case ElementType::TEXT:
-    case ElementType::FINGERING:
-    case ElementType::TEMPO_TEXT:
-    case ElementType::ORNAMENT:
-    case ElementType::EXPRESSION:
-    case ElementType::STAFF_TEXT:
-    case ElementType::SYSTEM_TEXT:
-    case ElementType::TRIPLET_FEEL:
-    case ElementType::PLAYTECH_ANNOTATION:
-    case ElementType::CAPO:
-    case ElementType::STRING_TUNINGS:
-    case ElementType::NOTEHEAD:
-    case ElementType::TREMOLO:
-    case ElementType::LAYOUT_BREAK:
-    case ElementType::MARKER:
-    case ElementType::STAFF_STATE:
-    case ElementType::INSTRUMENT_CHANGE:
-    case ElementType::REHEARSAL_MARK:
-    case ElementType::JUMP:
-    case ElementType::MEASURE_REPEAT:
     case ElementType::ACTION_ICON:
-    case ElementType::CHORD:
-    case ElementType::SPACER:
-    case ElementType::SLUR:
-    case ElementType::HARMONY:
-    case ElementType::BAGPIPE_EMBELLISHMENT:
     case ElementType::AMBITUS:
-    case ElementType::TREMOLOBAR:
+    case ElementType::ARPEGGIO:
+    case ElementType::ARTICULATION:
+    case ElementType::BAGPIPE_EMBELLISHMENT:
+    case ElementType::BAR_LINE:
+    case ElementType::BEND:
+    case ElementType::BRACKET:
+    case ElementType::BREATH:
+    case ElementType::CAPO:
+    case ElementType::CHORD:
+    case ElementType::CHORDLINE:
+    case ElementType::CLEF:
+    case ElementType::DYNAMIC:
+    case ElementType::EXPRESSION:
+    case ElementType::FERMATA:
     case ElementType::FIGURED_BASS:
-    case ElementType::LYRICS:
+    case ElementType::FINGERING:
     case ElementType::FRET_DIAGRAM:
+    case ElementType::FSYMBOL:
+    case ElementType::GLISSANDO:
+    case ElementType::HARMONY:
     case ElementType::HARP_DIAGRAM:
+    case ElementType::IMAGE:
+    case ElementType::INSTRUMENT_CHANGE:
+    case ElementType::JUMP:
+    case ElementType::KEYSIG:
+    case ElementType::LAYOUT_BREAK:
+    case ElementType::LYRICS:
+    case ElementType::MARKER:
+    case ElementType::MEASURE_NUMBER:
+    case ElementType::MEASURE_REPEAT:
+    case ElementType::NOTEHEAD:
+    case ElementType::ORNAMENT:
+    case ElementType::PLAYTECH_ANNOTATION:
+    case ElementType::REHEARSAL_MARK:
+    case ElementType::SLUR:
+    case ElementType::SPACER:
+    case ElementType::STAFF_STATE:
+    case ElementType::STAFF_TEXT:
+    case ElementType::STRING_TUNINGS:
+    case ElementType::SYMBOL:
+    case ElementType::SYSTEM_TEXT:
+    case ElementType::TEMPO_TEXT:
+    case ElementType::TEXT:
+    case ElementType::TIME_MARKER:
+    case ElementType::TIMESIG:
+    case ElementType::TREMOLO:
+    case ElementType::TREMOLOBAR:
+    case ElementType::TRIPLET_FEEL:
     case ElementType::STAFFTYPE_CHANGE: {
         EngravingItem* e = dropTarget(m_dropData.ed);
         if (e) {
@@ -1395,51 +1396,52 @@ bool NotationInteraction::drop(const PointF& pos, Qt::KeyboardModifiers modifier
     }
         accepted = true;
         break;
-    case ElementType::HBOX:
-    case ElementType::VBOX:
-    case ElementType::KEYSIG:
-    case ElementType::CLEF:
-    case ElementType::TIMESIG:
-    case ElementType::BAR_LINE:
-    case ElementType::ARPEGGIO:
-    case ElementType::BREATH:
-    case ElementType::GLISSANDO:
-    case ElementType::MEASURE_NUMBER:
-    case ElementType::BRACKET:
-    case ElementType::ARTICULATION:
-    case ElementType::FERMATA:
-    case ElementType::CHORDLINE:
-    case ElementType::BEND:
     case ElementType::ACCIDENTAL:
-    case ElementType::TEXT:
-    case ElementType::FINGERING:
-    case ElementType::TEMPO_TEXT:
-    case ElementType::ORNAMENT:
-    case ElementType::EXPRESSION:
-    case ElementType::STAFF_TEXT:
-    case ElementType::SYSTEM_TEXT:
-    case ElementType::TRIPLET_FEEL:
-    case ElementType::PLAYTECH_ANNOTATION:
-    case ElementType::CAPO:
-    case ElementType::STRING_TUNINGS:
-    case ElementType::NOTEHEAD:
-    case ElementType::TREMOLO:
-    case ElementType::LAYOUT_BREAK:
-    case ElementType::MARKER:
-    case ElementType::STAFF_STATE:
-    case ElementType::INSTRUMENT_CHANGE:
-    case ElementType::REHEARSAL_MARK:
-    case ElementType::JUMP:
-    case ElementType::MEASURE_REPEAT:
     case ElementType::ACTION_ICON:
-    case ElementType::NOTE:
-    case ElementType::CHORD:
-    case ElementType::SPACER:
-    case ElementType::BAGPIPE_EMBELLISHMENT:
     case ElementType::AMBITUS:
-    case ElementType::TREMOLOBAR:
+    case ElementType::ARPEGGIO:
+    case ElementType::ARTICULATION:
+    case ElementType::BAGPIPE_EMBELLISHMENT:
+    case ElementType::BAR_LINE:
+    case ElementType::BEND:
+    case ElementType::BRACKET:
+    case ElementType::BREATH:
+    case ElementType::CAPO:
+    case ElementType::CHORD:
+    case ElementType::CHORDLINE:
+    case ElementType::CLEF:
+    case ElementType::EXPRESSION:
+    case ElementType::FERMATA:
     case ElementType::FIGURED_BASS:
+    case ElementType::FINGERING:
+    case ElementType::GLISSANDO:
+    case ElementType::HBOX:
+    case ElementType::INSTRUMENT_CHANGE:
+    case ElementType::JUMP:
+    case ElementType::KEYSIG:
+    case ElementType::LAYOUT_BREAK:
     case ElementType::LYRICS:
+    case ElementType::MARKER:
+    case ElementType::MEASURE_NUMBER:
+    case ElementType::MEASURE_REPEAT:
+    case ElementType::NOTE:
+    case ElementType::NOTEHEAD:
+    case ElementType::ORNAMENT:
+    case ElementType::PLAYTECH_ANNOTATION:
+    case ElementType::REHEARSAL_MARK:
+    case ElementType::SPACER:
+    case ElementType::STAFF_STATE:
+    case ElementType::STAFF_TEXT:
+    case ElementType::STRING_TUNINGS:
+    case ElementType::SYSTEM_TEXT:
+    case ElementType::TEMPO_TEXT:
+    case ElementType::TEXT:
+    case ElementType::TIME_MARKER:
+    case ElementType::TIMESIG:
+    case ElementType::TREMOLO:
+    case ElementType::TREMOLOBAR:
+    case ElementType::TRIPLET_FEEL:
+    case ElementType::VBOX:
     case ElementType::HARP_DIAGRAM: {
         EngravingItem* el = dropTarget(m_dropData.ed);
         if (!el) {
@@ -4145,6 +4147,7 @@ mu::Ret NotationInteraction::canAddTextToItem(TextStyleType type, const Engravin
     static const std::set<TextStyleType> needSelectNoteOrRestTypes {
         TextStyleType::SYSTEM,
         TextStyleType::STAFF,
+        // TextStyleType::TIME_MARKER,
         TextStyleType::EXPRESSION,
         TextStyleType::REHEARSAL_MARK,
         TextStyleType::INSTRUMENT_CHANGE,
@@ -4201,6 +4204,7 @@ void NotationInteraction::addText(TextStyleType type, EngravingItem* item)
     }
 
     apply();
+
     showItem(textBox);
     startEditText(textBox);
 }

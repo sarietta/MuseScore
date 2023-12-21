@@ -96,6 +96,7 @@
 #include "../../dom/textbase.h"
 #include "../../dom/tempotext.h"
 #include "../../dom/text.h"
+#include "../../dom/timemarker.h"
 #include "../../dom/timesig.h"
 #include "../../dom/tremolobar.h"
 #include "../../dom/tripletfeel.h"
@@ -164,6 +165,7 @@ class TextLineSegment;
 class TextLineBase;
 class TextLineBaseSegment;
 class Tie;
+class TimeMarker;
 class TimeSig;
 class TremoloDispatcher;
 class TremoloBar;
@@ -330,6 +332,7 @@ public:
     static void layoutTextLineBase(TextLineBase* item, LayoutContext& ctx);
     static void layoutTextLineBaseSegment(TextLineBaseSegment* item, LayoutContext& ctx); // base class
     static void layoutTie(Tie* item, LayoutContext& ctx);
+    static void layoutTimeMarker(const TimeMarker* item, TimeMarker::LayoutData* ldata);
     static void layoutTimeSig(const TimeSig* item, TimeSig::LayoutData* ldata, const LayoutContext& ctx);
     static void layoutTremolo(TremoloDispatcher* item, LayoutContext& ctx);
     static void layoutTremoloBar(const TremoloBar* item, TremoloBar::LayoutData* ldata);

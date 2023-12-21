@@ -316,6 +316,8 @@ static constexpr PropertyMetaData propertyList[] = {
     { Pid::TEXT_SCRIPT_ALIGN,       false, "align",                 P_TYPE::INT,                PropertyGroup::POSITION,        DUMMY_QT_TR_NOOP("propertyName", "text script align") },
     { Pid::SYSTEM_FLAG,             false, "systemFlag",            P_TYPE::BOOL,               PropertyGroup::APPEARANCE,      DUMMY_QT_TR_NOOP("propertyName", "system flag") },
 
+    { Pid::TEXT_MARKER_TYPE,        false, "textMarkerType",        P_TYPE::INT,                PropertyGroup::APPEARANCE,      DUMMY_QT_TR_NOOP("propertyName", "text marker type") },
+
     { Pid::BEGIN_TEXT,              true,  "beginText",             P_TYPE::STRING,             PropertyGroup::APPEARANCE,      DUMMY_QT_TR_NOOP("propertyName", "begin text") },
     { Pid::BEGIN_TEXT_ALIGN,        false, "beginTextAlign",        P_TYPE::ALIGN,              PropertyGroup::APPEARANCE,      DUMMY_QT_TR_NOOP("propertyName", "begin text align") },
     { Pid::BEGIN_TEXT_PLACE,        false, "beginTextPlace",        P_TYPE::TEXT_PLACE,         PropertyGroup::APPEARANCE,      DUMMY_QT_TR_NOOP("propertyName", "begin text place") },

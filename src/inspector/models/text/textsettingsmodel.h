@@ -51,6 +51,7 @@ class TextSettingsModel : public AbstractInspectorModel
     Q_PROPERTY(PropertyItem * frameCornerRadius READ frameCornerRadius CONSTANT)
 
     Q_PROPERTY(PropertyItem * textType READ textType CONSTANT)
+    Q_PROPERTY(PropertyItem * textMarkerType READ textMarkerType CONSTANT)
     Q_PROPERTY(PropertyItem * textPlacement READ textPlacement CONSTANT)
     Q_PROPERTY(PropertyItem * textScriptAlignment READ textScriptAlignment CONSTANT)
 
@@ -92,6 +93,7 @@ public:
     PropertyItem* frameCornerRadius() const;
 
     PropertyItem* textType() const;
+    PropertyItem* textMarkerType() const;
     PropertyItem* textPlacement() const;
     PropertyItem* textScriptAlignment() const;
 
@@ -141,6 +143,7 @@ private:
     PropertyItem* m_frameCornerRadius = nullptr;
 
     PropertyItem* m_textType = nullptr;
+    PropertyItem* m_textMarkerType = nullptr;
     PropertyItem* m_textPlacement = nullptr;
     PropertyItem* m_textScriptAlignment = nullptr;
 

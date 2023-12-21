@@ -80,6 +80,10 @@ void TextSettingsModel::createProperties()
         updateFramePropertiesAvailability();
     });
 
+    m_textMarkerType = buildPropertyItem(mu::engraving::Pid::TEXT_MARKER_TYPE, [this](const mu::engraving::Pid pid, const QVariant& newValue) {
+        onPropertyValueChanged(pid, newValue);
+    });
+
     m_frameBorderColor = buildPropertyItem(mu::engraving::Pid::FRAME_FG_COLOR);
     m_frameFillColor = buildPropertyItem(mu::engraving::Pid::FRAME_BG_COLOR);
     m_frameThickness = buildPropertyItem(mu::engraving::Pid::FRAME_WIDTH);
@@ -142,6 +146,8 @@ void TextSettingsModel::loadProperties()
     loadPropertyItem(m_frameCornerRadius, formatDoubleFunc);
 
     loadPropertyItem(m_textType);
+    loadPropertyItem(m_textMarkerType);
+    m_textMarkerType->setIsEnabled(true);
     loadPropertyItem(m_textPlacement);
     loadPropertyItem(m_textScriptAlignment, [](const QVariant& elementPropertyValue) -> QVariant {
         return elementPropertyValue.toInt() == static_cast<int>(mu::engraving::VerticalAlignment::AlignUndefined)
@@ -170,6 +176,7 @@ void TextSettingsModel::resetProperties()
     m_frameCornerRadius->resetToDefault();
 
     m_textType->resetToDefault();
+    m_textMarkerType->resetToDefault();
     m_textPlacement->resetToDefault();
     m_textScriptAlignment->resetToDefault();
 }
@@ -247,6 +254,11 @@ PropertyItem* TextSettingsModel::verticalAlignment() const
 PropertyItem* TextSettingsModel::isSizeSpatiumDependent() const
 {
     return m_isSizeSpatiumDependent;
+}
+
+PropertyItem* TextSettingsModel::textMarkerType() const
+{
+    return m_textMarkerType;
 }
 
 PropertyItem* TextSettingsModel::frameType() const

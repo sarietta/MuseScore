@@ -79,6 +79,7 @@
 #include "textline.h"
 #include "tie.h"
 #include "tiemap.h"
+#include "timemarker.h"
 #include "timesig.h"
 #include "tremolo.h"
 #include "tremolotwochord.h"
@@ -742,6 +743,15 @@ TextBase* Score::addText(TextStyleType type, EngravingItem* destinationElement)
         chordRest->undoAddAnnotation(textBox);
         break;
     }
+    case TextStyleType::TIME_MARKER: {
+        ChordRest* chordRest = chordOrRest(destinationElement);
+        if (!chordRest) {
+            break;
+        }
+        textBox = Factory::createTimeMarker(chordRest, dummy()->segment(), TextStyleType::TIME_MARKER);
+        chordRest->undoAddAnnotation(textBox);
+        break;
+    }
     case TextStyleType::EXPRESSION: {
         ChordRest* chordRest = chordOrRest(destinationElement);
         if (!chordRest) {
@@ -1389,6 +1399,17 @@ void Score::cmdAddTimeSig(Measure* fm, staff_idx_t staffIdx, TimeSig* ts, bool l
     } else {
         Score* mScore = masterScore();
         Measure* mf  = mScore->tick2measure(tick);
+
+        // Set any time markers from this measure and forward to need an update
+        // on their next draw.
+        for (Score* score : scoreList()) {
+            Measure* nfm = score->tick2measure(tick);
+            nfm->scanElements(nullptr, [](void* _, EngravingItem* item) {
+              if (item->type() == ElementType::TIME_MARKER) {
+                static_cast<TimeMarker*>(item)->needsStaffLocationUpdate();
+              }
+            });
+        }
 
         //
         // rewrite all measures up to the next time signature
@@ -2293,6 +2314,7 @@ void Score::cmdFlip()
                 bend->undoChangeProperty(Pid::DIRECTION, PropertyValue::fromValue<DirectionV>(direction));
             });
         } else if (e->isStaffText()
+                   || e->isTimeMarker()
                    || e->isSystemText()
                    || e->isTempoText()
                    || e->isTripletFeel()
@@ -5850,6 +5872,7 @@ void Score::undoAddElement(EngravingItem* element, bool addToLinkedStaves, bool 
             && et != ElementType::DYNAMIC
             && et != ElementType::EXPRESSION
             && et != ElementType::STAFF_TEXT
+            && et != ElementType::TIME_MARKER
             && et != ElementType::SYSTEM_TEXT
             && et != ElementType::TRIPLET_FEEL
             && et != ElementType::PLAYTECH_ANNOTATION
@@ -5929,6 +5952,7 @@ void Score::undoAddElement(EngravingItem* element, bool addToLinkedStaves, bool 
                            || element->isDynamic()
                            || element->isExpression()
                            || element->isStaffText()
+                           || element->isTimeMarker()
                            || element->isPlayTechAnnotation()
                            || element->isCapo()
                            || element->isStringTunings()
@@ -5956,6 +5980,7 @@ void Score::undoAddElement(EngravingItem* element, bool addToLinkedStaves, bool 
                     // exclude certain element types except on corresponding staff in part
                     // this should be same list excluded in cloneStaff()
                     case ElementType::STAFF_TEXT:
+                    case ElementType::TIME_MARKER:
                     case ElementType::SYSTEM_TEXT:
                     case ElementType::TRIPLET_FEEL:
                     case ElementType::PLAYTECH_ANNOTATION:
@@ -6061,6 +6086,7 @@ void Score::undoAddElement(EngravingItem* element, bool addToLinkedStaves, bool 
                      || element->isDynamic()
                      || element->isExpression()
                      || element->isStaffText()
+                     || element->isTimeMarker()
                      || element->isPlayTechAnnotation()
                      || element->isCapo()
                      || element->isStringTunings()

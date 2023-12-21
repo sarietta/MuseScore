@@ -1035,6 +1035,9 @@ ByteArray Selection::symbolListMimeData() const
         case ElementType::STAFF_TEXT:
             seg = toStaffTextBase(e)->segment();
             break;
+        case ElementType::TIME_MARKER:
+            seg = toStaffTextBase(e)->segment();
+            break;
         case ElementType::STICKING:
             seg = toSticking(e)->segment();
             break;

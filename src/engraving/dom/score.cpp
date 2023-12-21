@@ -93,6 +93,7 @@
 #include "text.h"
 #include "tie.h"
 #include "tiemap.h"
+#include "timemarker.h"
 #include "timesig.h"
 #include "tuplet.h"
 #include "undo.h"
@@ -428,6 +429,15 @@ void Score::setUpTempoMap()
         rebuildTempoAndTimeSigMaps(m, tempoPrimo);
 
         tick += measureTicks;
+
+        // Set the time markers present in the measure to update their time
+        // location (this won't happen immediately, but currently happens on the
+        // next draw).
+        m->scanElements(nullptr, [](void* _, EngravingItem* item) {
+            if (item->type() == ElementType::TIME_MARKER) {
+                static_cast<TimeMarker*>(item)->needsStaffLocationUpdate();
+            }
+        });
     }
 
     if (isMaster()) {
@@ -467,6 +477,16 @@ void Score::setUpTempoMap()
 
     masterScore()->updateRepeatListTempo();
     m_needSetUpTempoMap = false;
+
+    // Trigger layout of staves for time marker updates to be reflected.
+    for (MeasureBase* mb = first(); mb; mb = mb->next()) {
+        Measure* m = toMeasure(mb);
+        m->scanElements(nullptr, [](void* _, EngravingItem* item) {
+            if (item->type() == ElementType::TIME_MARKER) {
+                static_cast<TimeMarker*>(item)->triggerLayout();
+            }
+        });
+    }
 }
 
 //---------------------------------------------------------

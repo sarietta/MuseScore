@@ -349,6 +349,7 @@ class EngravingItem : public mu::plugins::api::ScoreElement
     API_PROPERTY(fontSize,                FONT_SIZE)
     API_PROPERTY(fontStyle,               FONT_STYLE)
     API_PROPERTY(frameType,               FRAME_TYPE)
+    API_PROPERTY(textMarkerType,          TEXT_MARKER_TYPE)
     API_PROPERTY(frameWidth,              FRAME_WIDTH)
     API_PROPERTY(framePadding,            FRAME_PADDING)
     API_PROPERTY(frameRound,              FRAME_ROUND)

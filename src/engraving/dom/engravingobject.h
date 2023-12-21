@@ -175,6 +175,7 @@ class TextLineBaseSegment;
 class TextLineSegment;
 class Tie;
 class TieSegment;
+class TimeMarker;
 class TimeSig;
 class TremoloDispatcher;
 class TremoloBar;
@@ -439,6 +440,7 @@ public:
     CONVERT(MMRestRange,   MMREST_RANGE)
     CONVERT(StaffText,     STAFF_TEXT)
     CONVERT(SystemText,    SYSTEM_TEXT)
+    CONVERT(TimeMarker,    TIME_MARKER)
     CONVERT(PlayTechAnnotation, PLAYTECH_ANNOTATION)
     CONVERT(Capo,          CAPO)
     CONVERT(BracketItem,   BRACKET_ITEM)
@@ -733,6 +735,7 @@ CONVERT(Harmony)
 CONVERT(Volta)
 CONVERT(Jump)
 CONVERT(StaffText)
+CONVERT(TimeMarker)
 CONVERT(PlayTechAnnotation)
 CONVERT(Capo)
 CONVERT(Ottava)

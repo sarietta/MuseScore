@@ -111,6 +111,7 @@ class Text;
 class TextLine;
 class TextLineSegment;
 class TextLineBaseSegment;
+class TimeMarker;
 class TimeSig;
 class TremoloSingleChord;
 class TremoloTwoChord;
@@ -219,6 +220,7 @@ public:
 
     static void layout(TempoText* item, const Context& ctx);
     static void layout(TextLine* item, const Context& ctx);
+    static void layout(TimeMarker* item, const Context& ctx);
     static void layout(TimeSig* item, const Context& ctx);
     static void layout(TremoloSingleChord* item, const Context& ctx);
     static void layout(TremoloTwoChord* item, const Context& ctx);

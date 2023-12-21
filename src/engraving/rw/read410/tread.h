@@ -156,6 +156,7 @@ class Text;
 class TextLine;
 class TextLineBase;
 class Tie;
+class TimeMarker;
 class TimeSig;
 class TimeSigMap;
 class SigEvent;
@@ -298,6 +299,7 @@ public:
     static void read(TextLine* l, XmlReader& xml, ReadContext& ctx);
     static void read(TextLineBase* b, XmlReader& xml, ReadContext& ctx);
     static void read(Tie* t, XmlReader& xml, ReadContext& ctx);
+    static void read(TimeMarker* t, XmlReader& xml, ReadContext& ctx);
     static void read(TimeSig* s, XmlReader& xml, ReadContext& ctx);
     static void read(TimeSigMap* item, XmlReader& xml, ReadContext& ctx);
     static void read(TremoloDispatcher* t, XmlReader& xml, ReadContext& ctx);
@@ -375,6 +377,7 @@ private:
 
     static bool readProperties(TextBase* t, XmlReader& xml, ReadContext& ctx);
     static bool readProperties(StaffTextBase* t, XmlReader& xml, ReadContext& ctx);
+  static bool readProperties(TimeMarker* t, XmlReader& e, ReadContext& ctx);
 };
 }
 
