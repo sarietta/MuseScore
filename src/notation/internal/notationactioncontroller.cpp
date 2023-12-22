@@ -291,6 +291,7 @@ void NotationActionController::init()
     registerAction("measure-properties", &Controller::openMeasurePropertiesDialog);
     registerAction("config-raster", &Controller::openEditGridSizeDialog);
     registerAction("realize-chord-symbols", &Controller::openRealizeChordSymbolsDialog);
+    registerAction("open-video-player", &Controller::openVideoPlayer);
 
     registerAction("load-style", &Controller::loadStyle);
     registerAction("save-style", &Controller::saveStyle);
@@ -1869,6 +1870,11 @@ void NotationActionController::openEditGridSizeDialog()
 void NotationActionController::openRealizeChordSymbolsDialog()
 {
     interactive()->open("musescore://notation/realizechordsymbols?sync=false");
+}
+
+void NotationActionController::openVideoPlayer()
+{
+    interactive()->open("musescore://playback/videoplayer?sync=false");
 }
 
 void NotationActionController::toggleScoreConfig(ScoreConfigType configType)

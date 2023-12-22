@@ -153,6 +153,7 @@ private:
     void openMeasurePropertiesDialog();
     void openEditGridSizeDialog();
     void openRealizeChordSymbolsDialog();
+    void openVideoPlayer();
     mu::io::path_t selectStyleFile(bool forLoad);
     void loadStyle();
     void saveStyle();

@@ -26,6 +26,8 @@ set(MODULE_QRC
 
 set(MODULE_QML_IMPORT ${CMAKE_CURRENT_LIST_DIR}/qml)
 
+find_package(Qt5 COMPONENTS Multimedia REQUIRED)
+
 set(MODULE_SRC
     #public
     ${CMAKE_CURRENT_LIST_DIR}/playbackmodule.cpp
@@ -67,6 +69,12 @@ set(MODULE_SRC
     ${CMAKE_CURRENT_LIST_DIR}/view/playbackloadingmodel.h
     ${CMAKE_CURRENT_LIST_DIR}/view/soundprofilesmodel.cpp
     ${CMAKE_CURRENT_LIST_DIR}/view/soundprofilesmodel.h
+    ${CMAKE_CURRENT_LIST_DIR}/view/videoplayermodel.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/view/videoplayermodel.h
     )
 
+set(MODULE_LINK
+  Qt5::Multimedia
+)
+    
 include(${PROJECT_SOURCE_DIR}/build/module.cmake)

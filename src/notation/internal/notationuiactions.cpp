@@ -426,6 +426,12 @@ const UiActionList NotationUiActions::m_actions = {
              TranslatableString("action", "Realize &chord symbols"),
              TranslatableString("action", "Realize chord symbols")
              ),
+    UiAction("open-video-player",
+             mu::context::UiCtxNotationOpened,
+             mu::context::CTX_NOTATION_OPENED,
+             TranslatableString("action", "Open &video player"),
+             TranslatableString("action", "Open video player")
+             ),
     UiAction("time-delete",
              mu::context::UiCtxNotationOpened,
              mu::context::CTX_ANY,

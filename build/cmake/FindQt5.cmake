@@ -13,6 +13,7 @@ set(_components
     Gui
     Network
     NetworkAuth
+    Multimedia
     Qml
     Quick
     QuickControls2

@@ -292,6 +292,8 @@ MenuItem* AppMenuModel::makeToolsMenu()
         makeSeparator(),
         makeMenuItem("copy-lyrics-to-clipboard"),
         makeMenuItem("del-empty-measures"),
+        makeSeparator(),
+        makeMenuItem("open-video-player")
     };
 
     return makeMenu(TranslatableString("appshell/menu/tools", "&Tools"), toolsItems, "menu-tools");

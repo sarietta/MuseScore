@@ -95,6 +95,7 @@ void NotationPlayback::init()
     });
 
     score()->posChanged().onReceive(this, [this](mu::engraving::POS pos, int tick) {
+        LOGD("Position: %c::%d", pos, tick);
         if (mu::engraving::POS::CURRENT == pos) {
             m_playPositionTickChanged.send(tick);
         } else {

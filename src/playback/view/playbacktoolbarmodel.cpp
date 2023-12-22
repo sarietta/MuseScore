@@ -226,7 +226,7 @@ UiAction PlaybackToolBarModel::playAction() const
 
     bool isPlaying = playbackController()->isPlaying();
     action.iconCode =  isPlaying ? IconCode::Code::PAUSE : IconCode::Code::PLAY;
-
+    LOGD("Play started: %s", isPlaying ? "true" : "false");
     return action;
 }
 
